@@ -11,6 +11,8 @@ dir2 = '/usersVol1/smethurst/hyper/prob/'
 # l22 = l22[2:]
 h = Table.read('gz2_gz1_extra_galex_matched_data.fits', format='fits')
 
+h = h[h['IVAN_DENSITY'] > -50]
+
 d = h[h['t01_smooth_or_features_a02_features_or_disk_debiased'] >= 0.8]
 s = h[h['t01_smooth_or_features_a01_smooth_debiased'] >=0.8]
 
@@ -33,7 +35,9 @@ for j in range(len(log_m_l)):
 
 
 clow = pc[N.where(m_msun < 10.25)]
-N.save('low_mass_gal_cluster.npy', clow)
+idx = N.random.randint(0, len(clow), 482)
+clow = clow[idx]
+clow.write('low_mass_gal_cluster_clean.fits', format='fits')
 clows = []
 clowp = []
 for n in range(len(clow)):
@@ -44,7 +48,9 @@ print 'low mass cluster :', len(clow)
 
 
 cmed = pc[N.where(N.logical_and(m_msun > 10.25, m_msun<10.75))]
-N.save('med_mass_gal_cluster.npy', cmed)
+idx = N.random.randint(0, len(cmed), 482)
+cmed = cmed[idx]
+cmed.write('med_mass_gal_cluster_clean.fits', format='fits')
 cmeds = []
 cmedp = []
 for n in range(len(cmed)):
@@ -55,7 +61,9 @@ print 'med mass cluster :', len(cmed)
 
 
 chigh = pc[N.where(m_msun > 10.75)]
-N.save('high_mass_gal_field.npy', chigh)
+idx = N.random.randint(0, len(chigh), 482)
+chigh = chigh[idx]
+chigh.write('high_mass_gal_cluster_clean.fits', format='fits')
 chighs = []
 chighp = []
 for n in range(len(chigh)):
@@ -81,9 +89,9 @@ for j in range(len(log_m_l)):
 
 
 alow = pm[N.where(m_msun < 10.25)]
-idx = N.random.randint(0, len(alow), len(clow))
+idx = N.random.randint(0, len(alow), 482)
 alow = alow[idx]
-N.save('low_mass_gal_field.npy', alow)
+alow.write('low_mass_gal_field_clean.fits', format='fits')
 alows = []
 alowp = []
 for n in range(len(alow)):
@@ -94,9 +102,9 @@ print 'low mass field :', len(alow)
 
 
 amed = pm[N.where(N.logical_and(m_msun > 10.25, m_msun<10.75))]
-idx = N.random.randint(0, len(amed), len(cmed))
+idx = N.random.randint(0, len(amed), 482)
 amed = amed[idx]
-N.save('med_mass_gal_field.npy', amed)
+amed.write('med_mass_gal_field_clean.fits', format='fits')
 ameds = []
 amedp = []
 for n in range(len(amed)):
@@ -107,9 +115,9 @@ print 'med mass field :', len(amed)
 
 
 ahigh = pm[N.where(m_msun > 10.75)]
-idx = N.random.randint(0, len(ahigh), len(chigh))
-ahigh = ahigh[idx]
-N.save('high_mass_gal_field.npy', ahigh)
+# idx = N.random.randint(0, len(ahigh), len(chigh))
+# ahigh = ahigh[idx]
+ahigh.write('high_mass_gal_field_clean.fits', format='fits')
 ahighs = []
 ahighp = []
 for n in range(len(ahigh)):
@@ -148,9 +156,9 @@ for j in range(len(alows)):
         count+=1
         print count
         pass
-N.save('best_fit_low_mass_field.npy', bf)
-N.save('sum_weight_low_mass_field_disc_log_weight.npy', sumd)
-N.save('sum_weight_low_mass_field_smooth_log_weight.npy', sums)
+N.save('best_fit_zlt01_low_mass_field_clean.npy', bf)
+N.save('sum_weight_low_mass_field_disc_zlt01_clean_log_weight.npy', sumd)
+N.save('sum_weight_low_mass_field_smooth_zlt01_clean_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -174,9 +182,9 @@ for j in range(len(ameds)):
         count+=1
         print count
         pass
-N.save('best_fit_med_mass_field.npy', bf)
-N.save('sum_weight_med_mass_field_disc_log_weight.npy', sumd)
-N.save('sum_weight_med_mass_field_smooth_log_weight.npy', sums)
+N.save('best_fit_zlt01_med_mass_field_clean.npy', bf)
+N.save('sum_weight_med_mass_field_disc_zlt01_clean_log_weight.npy', sumd)
+N.save('sum_weight_med_mass_field_smooth_zlt01_clean_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -200,9 +208,9 @@ for j in range(len(ahighs)):
         count+=1
         print count
         pass
-N.save('best_fit_high_mass_field.npy', bf)
-N.save('sum_weight_high_mass_field_disc_log_weight.npy', sumd)
-N.save('sum_weight_high_mass_field_smooth_log_weight.npy', sums)
+N.save('best_fit_zlt01_high_mass_field_clean.npy', bf)
+N.save('sum_weight_high_mass_field_disc_zlt01_clean_log_weight.npy', sumd)
+N.save('sum_weight_high_mass_field_smooth_zlt01_clean_log_weight.npy', sums)
 
 
 
@@ -225,9 +233,9 @@ for j in range(len(clows)):
         count+=1
         print count
         pass
-N.save('best_fit_low_mass_cluster.npy', bf)
-N.save('sum_weight_low_mass_cluster_disc_log_weight.npy', sumd)
-N.save('sum_weight_low_mass_cluster_smooth_log_weight.npy', sums)
+N.save('best_fit_zlt01_low_mass_cluster_clean.npy', bf)
+N.save('sum_weight_low_mass_cluster_disc_zlt01_clean_log_weight.npy', sumd)
+N.save('sum_weight_low_mass_cluster_smooth_zlt01_clean_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -251,9 +259,9 @@ for j in range(len(cmeds)):
         count+=1
         print count
         pass
-N.save('best_fit_med_mass_cluster.npy', bf)
-N.save('sum_weight_med_mass_cluster_disc_log_weight.npy', sumd)
-N.save('sum_weight_med_mass_cluster_smooth_log_weight.npy', sums)
+N.save('best_fit_zlt01_med_mass_cluster_clean.npy', bf)
+N.save('sum_weight_med_mass_cluster_disc_zlt01_clean_log_weight.npy', sumd)
+N.save('sum_weight_med_mass_cluster_smooth_zlt01_clean_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -277,6 +285,6 @@ for j in range(len(chighs)):
         count+=1
         print count
         pass
-N.save('best_fit_high_mass_cluster.npy', bf)
-N.save('sum_weight_high_mass_cluster_disc_log_weight.npy', sumd)
-N.save('sum_weight_high_mass_cluster_smooth_log_weight.npy', sums)
+N.save('best_fit_zlt01_high_mass_cluster_clean.npy', bf)
+N.save('sum_weight_high_mass_cluster_disc_zlt01_clean_log_weight.npy', sumd)
+N.save('sum_weight_high_mass_cluster_smooth_zlt01_clean_log_weight.npy', sums)

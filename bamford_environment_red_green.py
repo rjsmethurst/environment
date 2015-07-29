@@ -11,6 +11,8 @@ dir2 = '/usersVol1/smethurst/hyper/prob/'
 # l22 = l22[2:]
 h = Table.read('gz2_gz1_extra_galex_matched_data.fits', format='fits')
 
+h = h[h['IVAN_DENSITY'] > -50]
+
 d = h[h['t01_smooth_or_features_a02_features_or_disk_debiased'] >= 0.8]
 s = h[h['t01_smooth_or_features_a01_smooth_debiased'] >=0.8]
 
@@ -25,7 +27,7 @@ upper = C_dash + 0.128
 cblue= pc[N.where(pc['MU_MR'] < lower)]
 idx = N.random.randint(0, len(cblue), 500)
 cblue = cblue[idx]
-N.save('blue_gal_cluster_80pc_sample.npy', cblue)
+N.save('blue_gal_cluster_zlt01_clean.npy', cblue)
 cblues = []
 cbluep = []
 for n in range(len(cblue)):
@@ -36,7 +38,9 @@ print 'blue cluster :', len(cblue)
 
 
 cgreen = pc[N.where(N.logical_and(pc['MU_MR'] < upper, pc['MU_MR'] > lower))]
-N.save('green_gal_cluster_80pc_sample.npy', cgreen)
+idx = N.random.randint(0, len(cgreen), 500)
+cgreen = cgreen[idx]
+N.save('green_gal_cluster_zlt01_clean.npy', cgreen)
 cgreens = []
 cgreenp = []
 for n in range(len(cgreen)):
@@ -49,7 +53,7 @@ print 'green cluster :', len(cgreen)
 cred = pc[N.where(pc['MU_MR'] > upper)]
 idx = N.random.randint(0, len(cred), 500)
 cred = cred[idx]
-N.save('red_gal_field_80pc_sample.npy', cred)
+N.save('red_gal_field_zlt01_clean.npy', cred)
 creds = []
 credp = []
 for n in range(len(cred)):
@@ -68,7 +72,7 @@ upper = C_dash + 0.128
 fblue = pm[N.where(pm['MU_MR'] < lower)]
 idx = N.random.randint(0, len(fblue), 500)
 fblue = fblue[idx]
-N.save('blue_gal_field_80pc_sample.npy', fblue)
+N.save('blue_gal_field_zlt01_clean.npy', fblue)
 fblues = []
 fbluep = []
 for n in range(len(fblue)):
@@ -81,7 +85,7 @@ print 'blue field :', len(fblue)
 fgreen = pm[N.where(N.logical_and(pm['MU_MR'] < upper, pm['MU_MR'] > lower))]
 idx = N.random.randint(0, len(fgreen), 500)
 fgreen = fgreen[idx]
-N.save('green_gal_field_80pc_sample.npy', fgreen)
+N.save('green_gal_field_zlt01_clean.npy', fgreen)
 fgreens = []
 fgreenp = []
 for n in range(len(fgreen)):
@@ -94,7 +98,7 @@ print 'green field :', len(fgreen)
 fred = pm[N.where(pm['MU_MR'] > upper)]
 idx = N.random.randint(0, len(fred), 500)
 fred = fred[idx]
-N.save('red_gal_field_80pc_sample.npy', fred)
+N.save('red_gal_field_zlt01_clean.npy', fred)
 freds = []
 fredp = []
 for n in range(len(fred)):
@@ -133,9 +137,9 @@ for j in range(len(fblues)):
         count+=1
         print count
         pass
-N.save('best_fit_blue_field_80pc_sample.npy', bf)
-N.save('sum_weight_blue_field_80pc_sample_disc_log_weight.npy', sumd)
-N.save('sum_weight_blue_field_80pc_sample_smooth_log_weight.npy', sums)
+N.save('best_fit_blue_field_zlt01_clean.npy', bf)
+N.save('sum_weight_blue_field_zlt01_clean_disc_log_weight.npy', sumd)
+N.save('sum_weight_blue_field_zlt01_clean_smooth_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -159,9 +163,9 @@ for j in range(len(fgreens)):
         count+=1
         print count
         pass
-N.save('best_fit_green_field_80pc_sample.npy', bf)
-N.save('sum_weight_green_field_80pc_sample_disc_log_weight.npy', sumd)
-N.save('sum_weight_green_field_80pc_sample_smooth_log_weight.npy', sums)
+N.save('best_fit_green_field_zlt01_clean.npy', bf)
+N.save('sum_weight_green_field_zlt01_clean_disc_log_weight.npy', sumd)
+N.save('sum_weight_green_field_zlt01_clean_smooth_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -185,9 +189,9 @@ for j in range(len(freds)):
         count+=1
         print count
         pass
-N.save('best_fit_red_field_80pc_sample.npy', bf)
-N.save('sum_weight_red_field_80pc_sample_disc_log_weight.npy', sumd)
-N.save('sum_weight_red_field_80pc_sample_smooth_log_weight.npy', sums)
+N.save('best_fit_red_field_zlt01_clean.npy', bf)
+N.save('sum_weight_red_field_zlt01_clean_disc_log_weight.npy', sumd)
+N.save('sum_weight_red_field_zlt01_clean_smooth_log_weight.npy', sums)
 
 
 
@@ -210,9 +214,9 @@ for j in range(len(cblues)):
         count+=1
         print count
         pass
-N.save('best_fit_blue_cluster_80pc_sample.npy', bf)
-N.save('sum_weight_blue_cluster_80pc_sample_disc_log_weight.npy', sumd)
-N.save('sum_weight_blue_cluster_80pc_sample_smooth_log_weight.npy', sums)
+N.save('best_fit_blue_cluster_zlt01_clean.npy', bf)
+N.save('sum_weight_blue_cluster_zlt01_clean_disc_log_weight.npy', sumd)
+N.save('sum_weight_blue_cluster_zlt01_clean_smooth_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -236,9 +240,9 @@ for j in range(len(cgreens)):
         count+=1
         print count
         pass
-N.save('best_fit_green_cluster_80pc_sample.npy', bf)
-N.save('sum_weight_green_cluster_80pc_sample_disc_log_weight.npy', sumd)
-N.save('sum_weight_green_cluster_80pc_sample_smooth_log_weight.npy', sums)
+N.save('best_fit_green_cluster_zlt01_clean.npy', bf)
+N.save('sum_weight_green_cluster_zlt01_clean_disc_log_weight.npy', sumd)
+N.save('sum_weight_green_cluster_zlt01_clean_smooth_log_weight.npy', sums)
 
 bf = N.zeros((1,6))
 sumd=N.zeros((len(X)-1, len(Y)-1))
@@ -262,6 +266,6 @@ for j in range(len(creds)):
         count+=1
         print count
         pass
-N.save('best_fit_red_cluster_80pc_sample.npy', bf)
-N.save('sum_weight_red_cluster_80pc_sample_disc_log_weight.npy', sumd)
-N.save('sum_weight_red_cluster_80pc_sample_smooth_log_weight.npy', sums)
+N.save('best_fit_red_cluster_zlt01_clean.npy', bf)
+N.save('sum_weight_red_cluster_zlt01_clean_disc_log_weight.npy', sumd)
+N.save('sum_weight_red_cluster_zlt01_clean_smooth_log_weight.npy', sums)
