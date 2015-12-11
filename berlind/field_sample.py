@@ -25,13 +25,16 @@ idx, d2d, d3d = datasky.match_to_catalog_3d(centcatalog)
 
 # set up a new table the same size as the gz2-galex catalog with the central galaxy details that match the same row
 # of the gz2-galex table
+mci = Column(name='matched central index', data=idx)
 centmatch = cent[idx]
 centmatchsky = SkyCoord(ra=centmatch['ra_1'], dec=centmatch['dec_1'],  distance=cosmo.luminosity_distance(centmatch['z_1']), unit=(u.degree,u.degree, u.Mpc))
 
 #calculate the separation betweent the gz2-galex data and the central it is closest to
 kpcd = (cosmo.kpc_comoving_per_arcmin(data['z_1'])).to(u.kpc/u.degree)
 pccr = centmatchsky.separation(datasky)*kpcd
-radius = pccr.to(u.Mpc)/centmatch['virial radius']
+radius = Column(name = 'projected cluster centric radius', data=pccr.to(u.Mpc)/centmatch['virial radius'])
+
+data.add_columns([mci, radius])
 
 P.figure()
 ax = P.subplot(111)
@@ -52,3 +55,11 @@ ax.hist(fieldcand['IVAN_DENSITY'], histtype='step', color='k', range=(-3, 3), bi
 ax.set_xlabel(r'$\Sigma$')
 ax.set_ylabel(r'$N$')
 P.savefig('ivan_density_distribution_of_field_candidates.png')
+
+fieldcand.write('field_candidate_sample_rv_gtr_25_gz2_gz1_extra.fits', format='fits')
+
+fieldcandivan = fieldcand[fieldcand['IVAN_DENSITY'] < -0.8]
+
+fieldcandivan.write('field_candidate_sample_ivan_lt_-0.8_rv_gtr_25_gz2_gz1_extra.fits', format='fits')
+
+
