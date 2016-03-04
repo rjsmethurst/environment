@@ -3,43 +3,46 @@
 import numpy as np
 
 
-def lnlike(alpha, s, errs):
-    """ Likelihood function for hyper parameters alpha.
-        :alpha:
-        Flattened 2D numpy array with NxM-1 heat map values
-        :s:
-        Flattened array of samples binned onto NxM grid - Nj samples drawn from each, Ni, galaxy
+def lnlike(pi, N):
+    """ Likelihood function for hyper parameters pi.
+        :pi:
+        [N, M] pixel values flattened into vector [N*M]
+        :N:
+        Drawn samples from each k galaxy binned onto NxM grid which has been flattened to a vector- [Ngal, N*M]
         RETURNS:
-        One value of lnlike for given alphas having summed over all the pixels, i.
+        One value of lnlike for given pis having summed over all galaxies, Ngal.
         """
-    #a = np.append(alpha, [1-np.sum(alpha)], axis=0)
-    a = alpha
-    #return np.sum(a - s - a*np.log(a/s))
-    return -0.5*np.sum( ((s-a)**2) )
+    # np.dot(N, pi) gives vector of shape (Ngal,) we take the log and then sum over all galaxies, Ngal
+    # could we also times by GZ vote fraction p - shape (Ngal,) - here before the log? 
+    pis = np.append(pi, [1-np.sum(pi)], axis=0)
+    return np.sum(np.log(np.dot(N, pis)/100))
 
-def lnprior(alpha):
+def lnprior(pi):
     """
-        Prior probabilty on the hyper parameters alpha, describing an NxM heat map.
-        :alpha:
-        Flattened 2D numpy array with NxM-1 heat map values
+        Prior probabilty on the hyper parameters pi, describing an NxM heat map.
+        :pi:
+        [N, M] pixel values flattened into vector [N*M]
         """
-    if np.all(alpha >= 0) and np.sum(alpha <= 1):
+    if np.all(pi >= 0) and np.sum(pi) < 1:
+        #return np.sum(pi*np.log(pi))
         return 0.0
     else:
         return -np.inf
 
-def lnprob(alpha, s, errs):
+def lnprob(pi, N):
     """
-        Posterior function for alpha and binned samples drawn from each galaxy posterior. 
-        :alpha:
-        Flattened 2D numpy array with NxM-1 heat map values
-        :s:
-        Flattened array of samples binned onto NxM grid - Nj samples drawn from each, Ni, galaxy
+        Posterior function for pixels pi and binned samples drawn from each galaxy posterior. 
+        :pi:
+        [N, M] pixel values flattened into vector [N*M]
+        :N:
+        Drawn samples from each k galaxy binned onto NxM grid which has been flattened to a vector- [Ngal, N*M]
+        RETURNS:
+        One value of lnprob for given pis having summed over all galaxies k
         """
-    lp = lnprior(alpha)
+    lp = lnprior(pi)
     if not np.isfinite(lp):
         return -np.inf
-    return lp + lnlike(alpha, s, errs)
+    return lp + lnlike(pi, N)
 
 
 
