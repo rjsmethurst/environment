@@ -4,18 +4,18 @@ import numpy as np
 
 
 def lnlike(pi, N):
-    """ Likelihood function for hyper parameters pi.
-        :pi:
-        [N, M] pixel values flattened into vector [N*M]
-        :N:
-        Drawn samples from each k galaxy binned onto NxM grid which has been flattened to a vector- [Ngal, N*M]
-        RETURNS:
-        One value of lnlike for given pis having summed over all galaxies, Ngal.
-        """
-    # np.dot(N, pi) gives vector of shape (Ngal,) we take the log and then sum over all galaxies, Ngal
-    # could we also times by GZ vote fraction p - shape (Ngal,) - here before the log? 
-    pis = np.append(pi, [1-np.sum(pi)], axis=0)
-    return np.sum(np.log(np.dot(N, pis)/100))
+        """ Likelihood function for hyper parameters pi.
+            :pi:
+            [N, M] pixel values flattened into vector [N*M]
+            :N:
+            Drawn samples from each k galaxy binned onto NxM grid which has been flattened to a vector- [Ngal, N*M]
+            RETURNS:
+            One value of lnlike for given pis having summed over all galaxies, Ngal.
+            """
+        # np.dot(N, pi) gives vector of shape (Ngal,) we take the log and then sum over all galaxies, Ngal
+        # could we also times by GZ vote fraction p - shape (Ngal,) - here before the log? 
+        pis = np.append(pi, [1-np.sum(pi)], axis=0)
+        return np.sum(np.log((np.dot(N, pis))/100))
 
 def lnprior(pi):
     """
