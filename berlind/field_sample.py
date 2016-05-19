@@ -62,10 +62,10 @@ fieldcandivan = fieldcand[fieldcand['IVAN_DENSITY'] < -0.8]
 
 fieldcandivan.write('field_candidate_sample_ivan_lt_-0.8_rv_gtr_25_gz2_gz1_extra.fits', format='fits')
 
-f = open('field_ivan_rv_ra_dec.txt', 'a')
+f = open('field_ivan_rv_no_ivan_ra_dec.txt', 'a')
 f.write('objid ra dec \n')
 for n in range(len(fieldcandivan)):
-    f.write(str(fieldcandivan['dr7objid'][n])+' '+str(fieldcandivan['ra_1'][n])+' '+str(fieldcandivan['dec_1'][n])+'\n')
+    f.write(str(fieldcand['dr7objid'][n])+' '+str(fieldcand['ra_1'][n])+' '+str(fieldcand['dec_1'][n])+'\n')
 f.close()
 
 

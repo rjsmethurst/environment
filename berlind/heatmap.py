@@ -3,7 +3,7 @@
 import numpy as np
 
 
-def lnlike(pi, N):
+def lnlike(pi, N, pv, ndraw):
         """ Likelihood function for hyper parameters pi.
             :pi:
             [N, M] pixel values flattened into vector [N*M]
@@ -15,7 +15,7 @@ def lnlike(pi, N):
         # np.dot(N, pi) gives vector of shape (Ngal,) we take the log and then sum over all galaxies, Ngal
         # could we also times by GZ vote fraction p - shape (Ngal,) - here before the log? 
         pis = np.append(pi, [1-np.sum(pi)], axis=0)
-        return np.sum(np.log((np.dot(N, pis))/100))
+        return np.sum(np.log(pv*(np.dot(N, pis))/float(ndraw)))
 
 def lnprior(pi):
     """
@@ -29,7 +29,7 @@ def lnprior(pi):
     else:
         return -np.inf
 
-def lnprob(pi, N):
+def lnprob(pi, N, pv, ndraw):
     """
         Posterior function for pixels pi and binned samples drawn from each galaxy posterior. 
         :pi:
@@ -42,7 +42,7 @@ def lnprob(pi, N):
     lp = lnprior(pi)
     if not np.isfinite(lp):
         return -np.inf
-    return lp + lnlike(pi, N)
+    return lp + lnlike(pi, N, pv, ndraw)
 
 
 
