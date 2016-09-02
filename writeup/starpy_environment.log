@@ -1,0 +1,532 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.23)  31 AUG 2016 19:14
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**starpy_environment.tex
+(./starpy_environment.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(./mn2e.cls
+Document Class: mn2e 2001/02/06 v2.2 LaTeX2e MN document class
+Document Style `MN' v2.2, released 2001 February 20
+\math@groups=\toks14
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmsy/b/n on input line 223.
+\symbmisymbols=\mathgroup4
+\symUPM=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `UPM' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 260.
+\symAMSa=\mathgroup6
+\SFB@measure=\dimen102
+\realparindent=\skip41
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\@indentskip=\skip42
+\smallindent=\skip43
+\@footindent=\skip44
+\@leftskip=\skip45
+\c@dummy=\count85
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count86
+)
+\c@table=\count87
+\c@figure=\count88
+\mathindent=\dimen103
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box26
+\fn@width=\dimen104
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen107
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen108
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks19
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(./starpy_environment.aux
+
+LaTeX Warning: Label `fig:timesinceradius' multiply defined.
+
+)
+\openout1 = `starpy_environment.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+ (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen117
+\scratchbox=\box29
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen118
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+eur on input line 21.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/ueur.fd
+File: ueur.fd 2009/06/22 v3.00 Euler Roman
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+
+Package natbib Warning: Citation `daddi10' on page 1 undefined on input line 31
+.
+
+
+Package natbib Warning: Citation `kennicutt77' on page 1 undefined on input lin
+e 31.
+
+
+Package natbib Warning: Citation `peng12' on page 1 undefined on input line 31.
+
+
+
+Package natbib Warning: Citation `faber12' on page 1 undefined on input line 31
+.
+
+
+Package natbib Warning: Citation `?' on page 1 undefined on input line 33.
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 33--34
+[]\OT1/cmr/m/n/9 The galaxy en-vi-ron-ment as a cause of quench-ing
+ []
+
+
+Package natbib Warning: Citation `?' on page 1 undefined on input line 35.
+
+
+Package natbib Warning: Citation `GZ2' on page 1 undefined on input line 43.
+
+
+Package natbib Warning: Citation `GZ2' on page 1 undefined on input line 43.
+
+
+Package natbib Warning: Citation `abazajian09' on page 1 undefined on input lin
+e 43.
+
+
+Package natbib Warning: Citation `martin05' on page 1 undefined on input line 4
+5.
+
+
+Package natbib Warning: Citation `cardelli89' on page 1 undefined on input line
+ 47.
+
+
+Package natbib Warning: Citation `blanton05' on page 1 undefined on input line 
+47.
+
+
+Package natbib Warning: Citation `padova08' on page 1 undefined on input line 4
+7.
+
+
+Package natbib Warning: Citation `Dan' on page 1 undefined on input line 56.
+
+
+Package natbib Warning: Citation `BC03' on page 1 undefined on input line 56.
+
+
+Package natbib Warning: Citation `Sme2015' on page 1 undefined on input line 56
+.
+
+
+Package natbib Warning: Citation `Chab03' on page 1 undefined on input line 56.
+
+
+
+Package natbib Warning: Citation `schawinski14' on page 1 undefined on input li
+ne 64.
+
+
+Package natbib Warning: Citation `Weiner06' on page 1 undefined on input line 6
+4.
+
+
+Package natbib Warning: Citation `Martin07' on page 1 undefined on input line 6
+4.
+
+
+Package natbib Warning: Citation `Noeske07' on page 1 undefined on input line 6
+4.
+
+
+Package natbib Warning: Citation `schawinski14' on page 1 undefined on input li
+ne 64.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<p_disc_trend_with_log_radius_field_compare.pdf, id=26, 289.08pt x 289.08pt>
+File: p_disc_trend_with_log_radius_field_compare.pdf Graphic file (type pdf)
+
+<use p_disc_trend_with_log_radius_field_compare.pdf>
+Package pdftex.def Info: p_disc_trend_with_log_radius_field_compare.pdf used on
+ input line 73.
+(pdftex.def)             Requested size: 231.84338pt x 231.84215pt.
+
+<p_smooth_trend_with_log_radius_field_compare.pdf, id=27, 289.08pt x 289.08pt>
+File: p_smooth_trend_with_log_radius_field_compare.pdf Graphic file (type pdf)
+
+<use p_smooth_trend_with_log_radius_field_compare.pdf>
+Package pdftex.def Info: p_smooth_trend_with_log_radius_field_compare.pdf used 
+on input line 74.
+(pdftex.def)             Requested size: 231.84338pt x 231.84215pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+[][]
+ []
+
+
+<bar_fraction_over_disc_trend_with_log_radius.pdf, id=28, 289.08pt x 289.08pt>
+File: bar_fraction_over_disc_trend_with_log_radius.pdf Graphic file (type pdf)
+
+<use bar_fraction_over_disc_trend_with_log_radius.pdf>
+Package pdftex.def Info: bar_fraction_over_disc_trend_with_log_radius.pdf used 
+on input line 80.
+(pdftex.def)             Requested size: 231.84338pt x 231.84215pt.
+
+<merger_fraction_trend_with_log_radius_compare_field.pdf, id=29, 289.08pt x 289
+.08pt>
+File: merger_fraction_trend_with_log_radius_compare_field.pdf Graphic file (typ
+e pdf)
+ <use merger_fraction_trend_with_log_radius_compare_field.pdf>
+Package pdftex.def Info: merger_fraction_trend_with_log_radius_compare_field.pd
+f used on input line 86.
+(pdftex.def)             Requested size: 231.84338pt x 231.84215pt.
+
+<min_max_bulge_fraction_trend_with_log_radius.pdf, id=30, 867.24pt x 433.62pt>
+File: min_max_bulge_fraction_trend_with_log_radius.pdf Graphic file (type pdf)
+
+<use min_max_bulge_fraction_trend_with_log_radius.pdf>
+Package pdftex.def Info: min_max_bulge_fraction_trend_with_log_radius.pdf used 
+on input line 93.
+(pdftex.def)             Requested size: 403.20154pt x 201.60475pt.
+
+<sfr_trend_with_log_radius_field_matched_blue_hlines_gomez_03_rv_not_r200.pdf, 
+id=31, 289.08pt x 433.62pt>
+File: sfr_trend_with_log_radius_field_matched_blue_hlines_gomez_03_rv_not_r200.
+pdf Graphic file (type pdf)
+
+<use sfr_trend_with_log_radius_field_matched_blue_hlines_gomez_03_rv_not_r200.p
+df>
+Package pdftex.def Info: sfr_trend_with_log_radius_field_matched_blue_hlines_go
+mez_03_rv_not_r200.pdf used on input line 99.
+(pdftex.def)             Requested size: 231.84338pt x 347.76323pt.
+
+<time_since_quenching_environment_properties_three.png, id=32, 867.24pt x 2601.
+72pt>
+File: time_since_quenching_environment_properties_three.png Graphic file (type 
+png)
+ <use time_since_quenching_environment_properties_three.png>
+Package pdftex.def Info: time_since_quenching_environment_properties_three.png 
+used on input line 105.
+(pdftex.def)             Requested size: 227.3297pt x 682.0pt.
+
+
+LaTeX Warning: Float too large for page by 24.55556pt on input line 108.
+
+<time_since_quenching_v_disp_mu_bins_delv.png, id=34, 867.24pt x 2601.72pt>
+File: time_since_quenching_v_disp_mu_bins_delv.png Graphic file (type png)
+
+<use time_since_quenching_v_disp_mu_bins_delv.png>
+Package pdftex.def Info: time_since_quenching_v_disp_mu_bins_delv.png used on i
+nput line 111.
+(pdftex.def)             Requested size: 227.3297pt x 682.0pt.
+
+
+LaTeX Warning: Float too large for page by 24.55556pt on input line 114.
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 116--117
+\OT1/cmr/m/n/9 First start with a san-ity check - do we re-pro-duce
+ []
+
+
+Package natbib Warning: Citation `ref' on page 2 undefined on input line 118.
+
+
+Package natbib Warning: Citation `ref' on page 2 undefined on input line 118.
+
+
+Package natbib Warning: Citation `ref' on page 2 undefined on input line 118.
+
+
+LaTeX Warning: Reference `fig:merger radius' on page 2 undefined on input line 
+120.
+
+
+Package natbib Warning: Citation `ref' on page 2 undefined on input line 120.
+
+
+Package natbib Warning: Citation `ref' on page 2 undefined on input line 120.
+
+
+Package natbib Warning: Citation `ref' on page 2 undefined on input line 120.
+
+(./starpy_environment.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./p_disc_trend_with_log_radius_field_compare.pdf> <./p_smooth_trend_with_l
+og_radius_field_compare.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./p_smooth_trend_with_log_radius_fie
+ld_compare.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./min_max_bulge_fraction_trend_with_log_radius.pdf> <./bar_fraction_over_d
+isc_trend_with_log_radius.pdf> <./merger_fraction_trend_with_log_radius_compare
+_field.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./sfr_trend_with_log_radius_field_matched_blue_hlines_gomez_03_rv_not_r200
+.pdf> <./time_since_quenching_environment_properties_three.png>] [5
+
+ <./time_since_quenching_v_disp_mu_bins_delv.png>] (./starpy_environment.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3045 strings out of 493488
+ 41045 string characters out of 3141326
+ 111468 words of memory out of 3000000
+ 6282 multiletter control sequences out of 15000+200000
+ 19154 words of font info for 68 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,15n,34p,1692b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/urw/ncntrsbk/uncr8a.pfb>
+Output written on starpy_environment.pdf (5 pages, 711662 bytes).
+PDF statistics:
+ 236 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,47 @@
+\begin{thebibliography}{5}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Berlind} {et~al}\mbox{.}(2006){Berlind}, {Frieman}, {Weinberg},
+  {Blanton}, {Warren}, {Abazajian}, {Scranton}, {Hogg}, {Scoccimarro},
+  {Bahcall}, {Brinkmann}, {Gott}, {Kleinman}, {Krzesinski}, {Lee}, {Miller},
+  {Nitta}, {Schneider}, {Tucker}, {Zehavi}, \& {SDSS
+  Collaboration}}]{berlind06}
+{Berlind} A.~A. {et~al.}, 2006, \apjs, 167, 1
+
+\bibitem[{{Dressler}(1980)}]{dressler80}
+{Dressler} A., 1980, \apj, 236, 351
+
+\bibitem[{{Oh} {et~al}\mbox{.}(2011){Oh}, {Sarzi}, {Schawinski}, \&
+  {Yi}}]{Oh11}
+{Oh} K., {Sarzi} M., {Schawinski} K., {Yi} S.~K., 2011, \apjs, 195, 13
+
+\bibitem[{{Smethurst} {et~al}\mbox{.}(2015){Smethurst}, {Lintott}, {Simmons},
+  {Schawinski}, {Marshall}, {Bamford}, {Fortson}, {Kaviraj}, {Masters},
+  {Melvin}, {Nichol}, {Skibba}, \& {Willett}}]{smethurst15}
+{Smethurst} R.~J. {et~al.}, 2015, \mnras, 450, 435
+
+\bibitem[{{York} {et~al}\mbox{.}(2000){York}, {Adelman}, {Anderson},
+  {Anderson}, {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman},
+  {Boroski}, {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles},
+  {Carey}, {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker},
+  {Csabai}, {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman},
+  {Elms}, {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman},
+  {Fukugita}, {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris},
+  {Hayes}, {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang},
+  {Hull}, {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi{\'c}}, {Kent}, {Kim},
+  {Kinney}, {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron},
+  {Kunszt}, {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long},
+  {Loomis}, {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch},
+  {Margon}, {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn},
+  {Narayanan}, {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski},
+  {Nonino}, {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples},
+  {Peterson}, {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio},
+  {Rechenmacher}, {Quinn}, {Richards}, {Richmond}, {Rivetta}, {Rockosi},
+  {Ruthmansdorfer}, {Sandford}, {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey},
+  {Shimasaku}, {Siegmund}, {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton},
+  {Strauss}, {Stubbs}, {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar},
+  {Tremonti}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang},
+  {Watanabe}, {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{york00}
+{York} D.~G. {et~al.}, 2000, \aj, 120, 1579
+
+\end{thebibliography}

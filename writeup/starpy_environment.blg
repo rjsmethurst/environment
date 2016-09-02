@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: starpy_environment.aux
+The style file: mn2e.bst
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "daddi10"
+Warning--I didn't find a database entry for "kennicutt77"
+Warning--I didn't find a database entry for "peng12"
+Warning--I didn't find a database entry for "faber12"
+Warning--I didn't find a database entry for "?"
+Warning--I didn't find a database entry for "GZ2"
+Warning--I didn't find a database entry for "abazajian09"
+Warning--I didn't find a database entry for "martin05"
+Warning--I didn't find a database entry for "cardelli89"
+Warning--I didn't find a database entry for "blanton05"
+Warning--I didn't find a database entry for "padova08"
+You've used 5 entries,
+            2983 wiz_defined-function locations,
+            661 strings with 8384 characters,
+and the built_in function-call counts, 10119 in all, are:
+= -- 520
+> -- 1840
+< -- 0
++ -- 557
+- -- 553
+* -- 848
+:= -- 1939
+add.period$ -- 0
+call.type$ -- 5
+change.case$ -- 204
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 84
+empty$ -- 129
+format.name$ -- 561
+if$ -- 1944
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 5
+newline$ -- 19
+num.names$ -- 20
+pop$ -- 198
+preamble$ -- 1
+purify$ -- 204
+quote$ -- 0
+skip$ -- 253
+stack$ -- 0
+substring$ -- 99
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 45
+warning$ -- 0
+while$ -- 21
+width$ -- 0
+write$ -- 53
+(There were 11 warnings)
