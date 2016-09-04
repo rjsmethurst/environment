@@ -57,7 +57,7 @@ For all galaxies in the \textsc{gz-galex} sample, we calculated the smallest pro
 
 \subsection{Deriving quenching parameters}\label{sec:starpy}
 
-\textsc{starpy}\footnote{Publicly available: \url{http://github.com/zooniverse/starpy}} is a \textsc{python} code which allows the user to derive the quenching star formation history (SFH) of a single galaxy through a Bayesian Markov Chain Monte Carlo method \citep{Dan}\footnote{\url{http://dan.iel.fm/emcee/}} with the input of the observed $u-r$ and $NUV-u$ colours, a redshift, and the use of the stellar population models of \cite{BC03}.  These models are implemented using solar metallicity (varying this does not substantially affect these results; \citealt{Sme2015}) and a Chabrier IMF \citep{Chab03} but does not model for intrinsic dust. The SFH is modelled as an exponential decline of the SFR described by two parameters $[t_q, \tau]$, where $t_q$ is the time at the onset of quenching $\rm{[Gyr]}$ and $\tau$ is the exponential rate at which quenching occurs $\rm{[Gyr]}$. Under the simplifying assumption that all galaxies formed at $t=0$ $\rm{ Gyr}$ with an initial burst of star formation, the SFH can be described as: 
+\textsc{starpy}\footnote{Publicly available: \url{http://github.com/zooniverse/starpy}} is a \textsc{python} code which allows the user to derive the quenching star formation history (SFH) of a single galaxy through a Bayesian Markov Chain Monte Carlo method \citep{emcee13}\footnote{\url{http://dan.iel.fm/emcee/}} with the input of the observed $u-r$ and $NUV-u$ colours, a redshift, and the use of the stellar population models of \cite{BC03}.  These models are implemented using solar metallicity (varying this does not substantially affect these results; \citealt{smethurst15}) and a Chabrier IMF \citep{Chab03} but does not model for intrinsic dust. The SFH is modelled as an exponential decline of the SFR described by two parameters $[t_q, \tau]$, where $t_q$ is the time at the onset of quenching $\rm{[Gyr]}$ and $\tau$ is the exponential rate at which quenching occurs $\rm{[Gyr]}$. Under the simplifying assumption that all galaxies formed at $t=0$ $\rm{ Gyr}$ with an initial burst of star formation, the SFH can be described as: 
 \begin{equation}\label{sfh}
 SFR =
 \begin{cases}
@@ -127,10 +127,26 @@ Figure \ref{fig:sfrradius} shows how the SFR of the \textsc{gz-group} sample dec
 
 With the results from \starpy~ we can look at the time since quenching onset ($\Delta t = t_{obs} - t_{quench}$, see Section \ref{}) binned in projected cluster centric radius, normalised by $R_{200}$ (a proxy for virial radius) for satellite galaxies and central galaxies in the \textsc{gz-group} sample, compared with galaxies in the \textsc{gz-field} sample. We can investigate these trends with group properties as shown in Figures \ref{fig:timesinceradius} \& \ref{fig:timesinceradiusvel}. 
 
+If mergers are an important evolutionary mechanism for satellite galaxies, we expect to see a difference in the quenching histories of satellites in groups with a higher number of galaxies, $N_{group}$. However, if we look at the bottom panel of Figure \ref{fig:timesinceradius} we do not see a trend with time since quenching onset with increasing $N_{group}$ for the satellite galaxies. The only place we do see such a trend for the central galaxies. 
+
+Across all the panels in Figures \ref{fig:timesinceradius} \& \ref{fig:timesinceradiusvel} we see a general trend for increasing time since quench with decreasing distance from the centre, which is suggestive that this slight trend is due to an effect of the environment itself. As earlier, in Figures \ref{} and \ref{} significant differences from the field value arise at $\sim 1R/R_{200}$. 
+
+In the middle panel of Figure \ref{fig:timesinceradius} however, we do see a clear trend for increasing time since quenching onset with increasing stellar mass for both satellite and central galaxies. This is suggestive of mass quenching among the group galaxy population. This is contrary to previous work suggesting that mass quenching is only of import for central galaxies \cite{ref, ref, ref}. 
+
+In simulations, the three things that are seen to constrain galaxy evolution are redshift, mass and halo mass \cite{ref, ref}. To study the effect that halo mass has on the quenching properties of group galaxies we shall use a proxy for halo mass by splitting by the mass of the corresponding central galaxy of the group.
+
+We investigate the effect of the group halo mass in the top panel of Figure \ref{fig:timesinceradius} where we can once again see a clear trend for increasing time since quenching onset with increasing stellar mass of the group central for both satellite and central galaxies. More massive halos therefore have a greater impact on the star formation rate of their satellites than less massive halos. 
+
+
 \section{Discussion}\label{sec:disc}
+
+So we saw that mergers are important for centrals not for satellites in the bottom panel of Figure \ref{fig:timesinceradius}, that mass quenching is important for satellites as well as centrals in the middle panel of Figure \ref{fig:timesinceradius} and that larger halos have a stronger environmental effect on their satellites in the top panel of Figure \ref{fig:timesinceradius}. 
+
+The trend that is present in all panels of Figure \ref{fig:timesinceradius} was for increasing time since quenching onset with decreasing projected group centric distance. We argue that this lends more support for quenching caused directly by the environmental; galaxies closer in, fell into the group earlier, as they did so they started quenching and so have a longer time since quenching started to occur. However, as seen in Figure \ref{fig:timesinceradiusvel} there is no trend in the time since quenching onset with the relative velocity of the satellites to their corresponding central. This suggests that whatever environmental mechanism is at play here, it is dependant on the size of the halo, either due to the potential or temperature of the halo, but not dependant on the speed of the satellite as in ram pressure stripping theory. This suggests that ram pressure stripping is not the dominant environmental quenching mechanism. 
 
 \section{Conclusions}\label{sec:conc}
 
+Mass quenching is definitely prevalent for satellites and mergers are important only in the most inner regions of groups for central galaxies. The environment does play a role in quenching galaxies through a mechanism proportional to the halo mass of the group but which isn't proportional to the speed the satellite galaxy is moving at relative to it's central galaxy. This suggests that ram pressure stripping is therefore not the dominant mechanism at work in environmental quenching. 
 
 
 
