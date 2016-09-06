@@ -55,9 +55,10 @@ In this work we focus on galaxies which are either quenching or quenched and are
 
 \subsection{Field sample}\label{sec:field}
 
-For all galaxies in the \textsc{gz-galex} sample, we calculated the smallest projected cluster centric radii from each of the central galaxies in the  \citet{berlind06} catalog and selected candidate field galaxies as those with (i) $R/R_{200} > 25$ and (ii) $\log\Sigma < -0.8$ from \cite{baldry06}. This sample of field galaxy candidates was then matched in redshift and stellar mass to the central galaxies of the \textsc{gz-group} sample to give $2,309$ field galaxies with $z < 0.084$.  
+For all galaxies in the \textsc{gz-galex} sample, we calculated the smallest projected cluster centric radii from each of the central galaxies in the  \citet{berlind06} catalog and selected candidate field galaxies as those with (i) $R/R_{200} > 25$ and (ii) $\log\Sigma < -0.8$ from \cite{baldry06}. This sample of field galaxy candidates was then matched in redshift and stellar mass firstly to the central galaxies of the \textsc{gz-group} sample to give $2,309$ field galaxies with $z < 0.084$ which will be referred to as the \textsc{gz-cent-field} sample. Secondly, the field galaxy candidates were then matched in redshift and stellar mass to the satellite galaxies of the \textsc{gz-group} sample to give $6,849$ field galaxies with $z < 0.084$ which will be referred to as the \textsc{gz-sat-field}. These galaxies in the \textsc{gz-sat-field} sample will be used as a control when investigating the morphological trends of satellite galaxies with environment. 
 
-As in Section \ref{sec:groups} we select all those galaxies in this sample $\pm1\sigma$ below the star forming `main sequence', giving $1596$ quenching or quenched field galaxies for use as a control sample, which will be referred to as the \textsc{gz-field} sample.
+As in Section \ref{sec:groups} we select all those galaxies in the central matched sample $\pm1\sigma$ below the star forming `main sequence', giving $1596$ quenching or quenched field galaxies for use as a control sample, which will be referred to as the \textsc{gz-cent-field-q} sample. These galaxies will be used as a control when investigating the quenching parameters of the different environments in order to ensure that each galaxy under comparison resides in similar stellar mass halos. 
+%We also select all those galaxies in the satellite matched sample $\pm1\sigma$ below the star forming `main sequence', giving $$ quenching or quenched field galaxies for use as a control sample, which will be referred to as the \textsc{gz-sat-field-q} sample.
   
 \begin{figure*}
 \centering{
@@ -69,7 +70,7 @@ As in Section \ref{sec:groups} we select all those galaxies in this sample $\pm1
 \begin{figure}
 \centering{
 \includegraphics[width=0.45\textwidth]{redshift_cent_field.pdf}
-\caption{Redshift distributions of quenching or quenched central galaxies in the \textsc{gz-group} sample (black solid line) in comparison to the redshift and mass matched \textsc{gz-field} sample (blue dashed line).}}
+\caption{Redshift distributions of quenching or quenched central galaxies in the \textsc{gz-group} sample (black solid line) in comparison to the redshift and mass matched \textsc{gz-cent-field-q} sample (blue dashed line).}}
 \label{fig:zcompare}
 \end{figure}
 
@@ -101,14 +102,14 @@ In this work we will look for trends in the time since quenching onset, $\Delta 
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.46\textwidth]{bar_fraction_over_disc_trend_with_log_radius.pdf}
-\caption{Bar fraction (number of barred disc galaxies over number of disc galaxies) in the \textsc{gz-group} sample binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group. The shaded region shows $\pm1\sigma$ on the bar fraction. The bar fraction of the \textsc{field} sample is also shown (blue solid line) with $\pm1\sigma$ (blue dashed line).}
+\includegraphics[width=0.46\textwidth]{bar_fraction_over_disc_trend_with_log_radius_sat_matched_field_cand.pdf}
+\caption{Bar fraction (number of barred disc galaxies over number of disc galaxies) in the \textsc{gz-group} sample binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group. The shaded region shows $\pm1\sigma$ on the bar fraction. The bar fraction of the \textsc{gz-sat-field} sample is also shown (blue solid line) with $\pm1\sigma$ (blue dashed line).}
 \label{fig:barradius}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.46\textwidth]{merger_fraction_trend_with_log_radius_compare_field.pdf}
-\caption{Merger fraction in the \textsc{gz-group} sample binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group. The shaded region shows $\pm1\sigma$ on the merger fraction. The merger fraction of the \textsc{field} sample is also shown (blue solid line) with $\pm1\sigma$ (blue dashed line).}
+\includegraphics[width=0.46\textwidth]{merger_fraction_trend_with_log_radius_compare_sat_field_cand.pdf}
+\caption{Merger fraction in the \textsc{gz-group} sample binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group. The shaded region shows $\pm1\sigma$ on the merger fraction. The merger fraction of the \textsc{gz-sat-field} sample is also shown (blue solid line) with $\pm1\sigma$ (blue dashed line).}
 \label{fig:mergerradius}
 \end{figure}
 
@@ -135,28 +136,28 @@ We investigate the effect of the group halo mass in the top panel of Figure \ref
 In the bottom panel of Figure \ref{fig:timesinceradiusvel} we split the satellite galaxies of the \textsc{gz-group} sample into bins of relative velocity to their central galaxies. We can see that their is no trend with time since onset of quenching with increasing relative velocity for satellite galaxies, however the trend with decreasing projected group centric radius, seen in each panel in Figure \ref{fig:timesinceradius} is still present. This suggests that any environmental processes causing this quenching are not corrected with satellite velocity.  
 
 \begin{figure*}
-\includegraphics[width=0.85\textwidth]{min_max_bulge_fraction_trend_with_log_radius.pdf}
-\caption{Fraction of galaxies with none/just noticeable bulge classifications (left) and with obvious/dominant bulge classifications (right) in the \textsc{gz-group} sample binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group. The shaded regions shows $\pm1\sigma$ on the bulge fractions. The bulge fractions of the \textsc{field} sample are also shown (blue solid lines) with $\pm1\sigma$ (blue dashed lines).}
+\includegraphics[width=0.85\textwidth]{min_max_bulge_fraction_trend_with_log_radius_sat_field_cand.pdf}
+\caption{Fraction of galaxies with none/just noticeable bulge classifications (left) and with obvious/dominant bulge classifications (right) in the \textsc{gz-group} sample binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group. The shaded regions shows $\pm1\sigma$ on the bulge fractions. The bulge fractions of the \textsc{gz-sat-field} sample are also shown (blue solid lines) with $\pm1\sigma$ (blue dashed lines).}
 \label{fig:bulgeradius}
 \end{figure*}
 
 \begin{figure}
 \includegraphics[width=0.46\textwidth]{sfr_trend_with_log_radius_field_matched_blue_dashed_hlines_gomez_03_rv_not_r200.pdf}
-\caption{Median $H\alpha$ derived star formation rates in the \textsc{gz-group} sample, binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group.  The shaded region shows the SFRs encompassed by $50\%$ of the population in a given bin. The median SFR of the \textsc{field} sample is shown (blue solid line) along with the 25th percentile (blue dashed line). The 75th percentile is not shown but lies at a value of $\rm{SFR} = 0.38 M_{\odot}\rm{yr}^{-1}$.}
+\caption{Median $H\alpha$ derived star formation rates of satellite galaxies in the \textsc{gz-group} sample, binned in projected cluster centric radius, normalised by $R_{200}$, a proxy for the virial radius of a group.  The shaded region shows the SFRs encompassed by $50\%$ of the population in a given bin. The median SFR of the \textsc{gz-sat-field} sample is shown (blue solid line) along with the 25th and 75th percentiles (blue dashed lines).}
 \label{fig:sfrradius}
 \end{figure}
 
 \begin{figure}
 \centering{
 \includegraphics[height=0.875\textheight]{time_since_quenching_environment_properties.pdf}
-\caption{The time since quenching onset ($\Delta t = t_{obs} - t_{q}$) binned in projected cluster centric radius, normalised by $R_{200}$, for satellite galaxies (triangles) split by stellar mass of the corresponding central galaxy (top), stellar mass (middle) and the number of galaxies within the group (bottom). The corresponding values for central galaxies (squares) and field galaxies (circles) are shown and connected by the dashed lines to aid the reader.}
+\caption{The time since quenching onset ($\Delta t = t_{obs} - t_{q}$) binned in projected cluster centric radius, normalised by $R_{200}$, for satellite galaxies (triangles) split by stellar mass of the corresponding central galaxy (top), stellar mass (middle) and the number of galaxies within the group (bottom). The corresponding values for central galaxies (squares) and galaxies in the \textsc{gz-cent-field} sample (circles) are shown and connected by the dashed lines to aid the reader.}
 \label{fig:timesinceradius}}
 \end{figure}
 
 \begin{figure}
 \centering{
 \includegraphics[height=0.875\textheight]{time_since_quenching_v_disp_mu_bins_delv.pdf}
-\caption{The time since quenching onset ($\Delta t = t_{obs} - t_{q}$) binned in projected cluster centric radius, normalised by $R_{200}$, for satellite galaxies (triangles) split by velocity dispersion (top), stellar mass ratio ($\mu_* = M_*/M_{*,c}$) (middle) and the difference in velocity from the associated central galaxy (bottom). The corresponding values for central galaxies (squares) and field galaxies (circles) are shown and connected by the dashed lines to aid the reader in the top panel where appropriate.}
+\caption{The time since quenching onset ($\Delta t = t_{obs} - t_{q}$) binned in projected cluster centric radius, normalised by $R_{200}$, for satellite galaxies (triangles) split by velocity dispersion (top), stellar mass ratio ($\mu_* = M_*/M_{*,c}$) (middle) and the difference in velocity from the associated central galaxy (bottom). The corresponding values for central galaxies (squares) and galaxies in the \textsc{gz-cent-field} sample (circles) are shown and connected by the dashed lines to aid the reader in the top panel where appropriate.}
 \label{fig:timesinceradiusvel}}
 \end{figure}
 
