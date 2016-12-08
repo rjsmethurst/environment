@@ -1,0 +1,803 @@
+\begin{thebibliography}{168}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Abadi} {et~al}\mbox{.}(1999){Abadi}, {Moore}, \& {Bower}}]{abadi99}
+{Abadi} M.~G., {Moore} B., {Bower} R.~G., 1999, \mnras, 308, 947
+
+\bibitem[{{Abazajian} {et~al}\mbox{.}(2009){Abazajian}, {Adelman-McCarthy},
+  {Ag{\"u}eros}, {Allam}, {Allende Prieto}, {An}, {Anderson}, {Anderson},
+  {Annis}, {Bahcall}, \& et~al.}]{abazajian09}
+{Abazajian} K.~N. {et~al.}, 2009, \apjs, 182, 543
+
+\bibitem[{{Abell}(1958)}]{abell58}
+{Abell} G.~O., 1958, \apjs, 3, 211
+
+\bibitem[{{Abramson} {et~al}\mbox{.}(2016){Abramson}, {Gladders}, {Dressler},
+  {Oemler}, {Poggianti}, \& {Vulcani}}]{abramson16}
+{Abramson} L.~E., {Gladders} M.~D., {Dressler} A., {Oemler} A., {Poggianti} B.,
+  {Vulcani} B., 2016, ArXiv e-prints, 1604.00016
+
+\bibitem[{{Astropy Collaboration} {et~al}\mbox{.}(2013){Astropy Collaboration},
+  {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
+  {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
+  {Barbary}, {Muna}, {Ferguson}, {Grollier}, {Parikh}, {Nair}, {Unther},
+  {Deil}, {Woillez}, {Conseil}, {Kramer}, {Turner}, {Singer}, {Fox}, {Weaver},
+  {Zabalza}, {Edwards}, {Azalee Bostroem}, {Burke}, {Casey}, {Crawford},
+  {Dencheva}, {Ely}, {Jenness}, {Labrie}, {Lim}, {Pierfederici}, {Pontzen},
+  {Ptak}, {Refsdal}, {Servillat}, \& {Streicher}}]{astropy13}
+{Astropy Collaboration} {et~al.}, 2013, \aap, 558, A33
+
+\bibitem[{{Athanassoula}(1992{\natexlab{a}})}]{athanassoula92a}
+{Athanassoula} E., 1992{\natexlab{a}}, \mnras, 259, 328
+
+\bibitem[{{Athanassoula}(1992{\natexlab{b}})}]{athanassoula92b}
+{Athanassoula} E., 1992{\natexlab{b}}, \mnras, 259, 345
+
+\bibitem[{{Baldry} {et~al}\mbox{.}(2006){Baldry}, {Balogh}, {Bower},
+  {Glazebrook}, {Nichol}, {Bamford}, \& {Budavari}}]{Baldry06}
+{Baldry} I.~K., {Balogh} M.~L., {Bower} R.~G., {Glazebrook} K., {Nichol} R.~C.,
+  {Bamford} S.~P., {Budavari} T., 2006, \mnras, 373, 469
+
+\bibitem[{{Balogh} {et~al}\mbox{.}(2016){Balogh}, {McGee}, {Mok}, {Muzzin},
+  {van der Burg}, {Bower}, {Finoguenov}, {Hoekstra}, {Lidman}, {Mulchaey},
+  {Noble}, {Parker}, {Tanaka}, {Wilman}, {Webb}, {Wilson}, \& {Yee}}]{balogh16}
+{Balogh} M.~L. {et~al.}, 2016, \mnras, 456, 4364
+
+\bibitem[{{Balogh} {et~al}\mbox{.}(2000){Balogh}, {Navarro}, \&
+  {Morris}}]{balogh00}
+{Balogh} M.~L., {Navarro} J.~F., {Morris} S.~L., 2000, \apj, 540, 113
+
+\bibitem[{{Bamford} {et~al}\mbox{.}(2009){Bamford}, {Nichol}, {Baldry}, {Land},
+  {Lintott}, {Schawinski}, {Slosar}, {Szalay}, {Thomas}, {Torki}, {Andreescu},
+  {Edmondson}, {Miller}, {Murray}, {Raddick}, \& {Vandenberg}}]{Bamford09}
+{Bamford} S.~P. {et~al.}, 2009, \mnras, 393, 1324
+
+\bibitem[{{Barazza} {et~al}\mbox{.}(2009){Barazza}, {Jablonka}, {Desai},
+  {Jogee}, {Arag{\'o}n-Salamanca}, {De Lucia}, {Saglia}, {Halliday},
+  {Poggianti}, {Dalcanton}, {Rudnick}, {Milvang-Jensen}, {Noll}, {Simard},
+  {Clowe}, {Pell{\'o}}, {White}, \& {Zaritsky}}]{barazza09}
+{Barazza} F.~D. {et~al.}, 2009, \aap, 497, 713
+
+\bibitem[{{Barnes} \& {Hernquist}(1996)}]{barnes96}
+{Barnes} J.~E., {Hernquist} L., 1996, \apj, 471, 115
+
+\bibitem[{{Barro} {et~al}\mbox{.}(2013){Barro}, {Faber},
+  {P{\'e}rez-Gonz{\'a}lez}, {Koo}, {Williams}, {Kocevski}, {Trump}, {Mozena},
+  {McGrath}, {van der Wel}, {Wuyts}, {Bell}, {Croton}, {Ceverino}, {Dekel},
+  {Ashby}, {Cheung}, {Ferguson}, {Fontana}, {Fang}, {Giavalisco}, {Grogin},
+  {Guo}, {Hathi}, {Hopkins}, {Huang}, {Koekemoer}, {Kartaltepe}, {Lee},
+  {Newman}, {Porter}, {Primack}, {Ryan}, {Rosario}, {Somerville}, {Salvato}, \&
+  {Hsu}}]{barro13b}
+{Barro} G. {et~al.}, 2013, \apj, 765, 104
+
+\bibitem[{{Baugh} {et~al}\mbox{.}(1998){Baugh}, {Cole}, {Frenk}, \&
+  {Lacey}}]{baugh98}
+{Baugh} C.~M., {Cole} S., {Frenk} C.~S., {Lacey} C.~G., 1998, \apj, 498, 504
+
+\bibitem[{{Baugh} {et~al}\mbox{.}(2005){Baugh}, {Lacey}, {Frenk}, {Granato},
+  {Silva}, {Bressan}, {Benson}, \& {Cole}}]{baugh05}
+{Baugh} C.~M., {Lacey} C.~G., {Frenk} C.~S., {Granato} G.~L., {Silva} L.,
+  {Bressan} A., {Benson} A.~J., {Cole} S., 2005, \mnras, 356, 1191
+
+\bibitem[{{Berlind} {et~al}\mbox{.}(2006){Berlind}, {Frieman}, {Weinberg},
+  {Blanton}, {Warren}, {Abazajian}, {Scranton}, {Hogg}, {Scoccimarro},
+  {Bahcall}, {Brinkmann}, {Gott}, {Kleinman}, {Krzesinski}, {Lee}, {Miller},
+  {Nitta}, {Schneider}, {Tucker}, {Zehavi}, \& {SDSS
+  Collaboration}}]{berlind06}
+{Berlind} A.~A. {et~al.}, 2006, \apjs, 167, 1
+
+\bibitem[{{Bialas} {et~al}\mbox{.}(2015){Bialas}, {Lisker}, {Olczak},
+  {Spurzem}, \& {Kotulla}}]{bialas15}
+{Bialas} D., {Lisker} T., {Olczak} C., {Spurzem} R., {Kotulla} R., 2015, \aap,
+  576, A103
+
+\bibitem[{{Birnboim} \& {Dekel}(2003)}]{birnboim03}
+{Birnboim} Y., {Dekel} A., 2003, \mnras, 345, 349
+
+\bibitem[{{Blanton} {et~al}\mbox{.}(2001){Blanton}, {Dalcanton}, {Eisenstein},
+  {Loveday}, {Strauss}, {SubbaRao}, {Weinberg}, {Anderson}, {Annis}, {Bahcall},
+  {Bernardi}, {Brinkmann}, {Brunner}, {Burles}, {Carey}, {Castander},
+  {Connolly}, {Csabai}, {Doi}, {Finkbeiner}, {Friedman}, {Frieman}, {Fukugita},
+  {Gunn}, {Hennessy}, {Hindsley}, {Hogg}, {Ichikawa}, {Ivezi{\'c}}, {Kent},
+  {Knapp}, {Lamb}, {Leger}, {Long}, {Lupton}, {McKay}, {Meiksin}, {Merelli},
+  {Munn}, {Narayanan}, {Newcomb}, {Nichol}, {Okamura}, {Owen}, {Pier}, {Pope},
+  {Postman}, {Quinn}, {Rockosi}, {Schlegel}, {Schneider}, {Shimasaku},
+  {Siegmund}, {Smee}, {Snir}, {Stoughton}, {Stubbs}, {Szalay}, {Szokoly},
+  {Thakar}, {Tremonti}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley},
+  {Waddell}, {Yanny}, {Yasuda}, \& {York}}]{blanton01}
+{Blanton} M.~R. {et~al.}, 2001, \aj, 121, 2358
+
+\bibitem[{{Blanton} {et~al}\mbox{.}(2005){Blanton}, {Eisenstein}, {Hogg},
+  {Schlegel}, \& {Brinkmann}}]{Blanton05}
+{Blanton} M.~R., {Eisenstein} D., {Hogg} D.~W., {Schlegel} D.~J., {Brinkmann}
+  J., 2005, \apj, 629, 143
+
+\bibitem[{{Blanton} \& {Roweis}(2007)}]{blanton07}
+{Blanton} M.~R., {Roweis} S., 2007, \aj, 133, 734
+
+\bibitem[{{Bluck} {et~al}\mbox{.}(2014){Bluck}, {Mendel}, {Ellison}, {Moreno},
+  {Simard}, {Patton}, \& {Starkenburg}}]{bluck14}
+{Bluck} A.~F.~L., {Mendel} J.~T., {Ellison} S.~L., {Moreno} J., {Simard} L.,
+  {Patton} D.~R., {Starkenburg} E., 2014, \mnras, 441, 599
+
+\bibitem[{{Bower} \& {Balogh}(2004)}]{bower04}
+{Bower} R.~G., {Balogh} M.~L., 2004, Clusters of Galaxies: Probes of
+  Cosmological Structure and Galaxy Evolution, 325
+
+\bibitem[{{Bower} {et~al}\mbox{.}(2006){Bower}, {Benson}, {Malbon}, {Helly},
+  {Frenk}, {Baugh}, {Cole}, \& {Lacey}}]{Bower06}
+{Bower} R.~G., {Benson} A.~J., {Malbon} R., {Helly} J.~C., {Frenk} C.~S.,
+  {Baugh} C.~M., {Cole} S., {Lacey} C.~G., 2006, \mnras, 370, 645
+
+\bibitem[{{Brinchmann} {et~al}\mbox{.}(2004){Brinchmann}, {Charlot}, {White},
+  {Tremonti}, {Kauffmann}, {Heckman}, \& {Brinkmann}}]{brinchmann04}
+{Brinchmann} J., {Charlot} S., {White} S.~D.~M., {Tremonti} C., {Kauffmann} G.,
+  {Heckman} T., {Brinkmann} J., 2004, \mnras, 351, 1151
+
+\bibitem[{{Bruzual} \& {Charlot}(2003)}]{BC03}
+{Bruzual} G., {Charlot} S., 2003, \mnras, 344, 1000
+
+\bibitem[{{Buat} {et~al}\mbox{.}(2005){Buat}, {Iglesias-P{\'a}ramo}, {Seibert},
+  {Burgarella}, {Charlot}, {Martin}, {Xu}, {Heckman}, {Boissier}, {Boselli},
+  {Barlow}, {Bianchi}, {Byun}, {Donas}, {Forster}, {Friedman}, {Jelinski},
+  {Lee}, {Madore}, {Malina}, {Milliard}, {Morissey}, {Neff}, {Rich},
+  {Schiminovitch}, {Siegmund}, {Small}, {Szalay}, {Welsh}, \& {Wyder}}]{Buat05}
+{Buat} V. {et~al.}, 2005, \apjl, 619, L51
+
+\bibitem[{{Butcher} \& {Oemler}(1978)}]{butcher78}
+{Butcher} H., {Oemler}, Jr. A., 1978, \apj, 226, 559
+
+\bibitem[{{Cardelli} {et~al}\mbox{.}(1989){Cardelli}, {Clayton}, \&
+  {Mathis}}]{Cardelli89}
+{Cardelli} J.~A., {Clayton} G.~C., {Mathis} J.~S., 1989, \apj, 345, 245
+
+\bibitem[{{Carlberg}(2004)}]{carlberg04}
+{Carlberg} R.~G., 2004, Clusters of Galaxies: Probes of Cosmological Structure
+  and Galaxy Evolution, 343
+
+\bibitem[{{Carlin} {et~al}\mbox{.}(2016){Carlin}, {Sand}, {Price}, {Willman},
+  {Karunakaran}, {Spekkens}, {Bell}, {Brodie}, {Crnojevi{\'c}}, {Forbes},
+  {Hargis}, {Kirby}, {Lupton}, {Peter}, {Romanowsky}, \& {Strader}}]{carlin16}
+{Carlin} J.~L. {et~al.}, 2016, \apjl, 828, L5
+
+\bibitem[{{Chabrier}(2003)}]{chabrier03}
+{Chabrier} G., 2003, \pasp, 115, 763
+
+\bibitem[{{Cheung} {et~al}\mbox{.}(2013){Cheung}, {Athanassoula}, {Masters},
+  {Nichol}, {Bosma}, {Bell}, {Faber}, {Koo}, {Lintott}, {Melvin}, {Schawinski},
+  {Skibba}, \& {Willett}}]{Cheung13}
+{Cheung} E. {et~al.}, 2013, \apj, 779, 162
+
+\bibitem[{{Conselice}(2003)}]{conselice03}
+{Conselice} C.~J., 2003, \apjs, 147, 1
+
+\bibitem[{{Cowie} \& {Barger}(2008)}]{cowie08}
+{Cowie} L.~L., {Barger} A.~J., 2008, \apj, 686, 72
+
+\bibitem[{{Cowie} \& {Songaila}(1977)}]{cowie77}
+{Cowie} L.~L., {Songaila} A., 1977, \nat, 266, 501
+
+\bibitem[{{Cox} {et~al}\mbox{.}(2008){Cox}, {Younger}, {Hernquist}, \&
+  {Hopkins}}]{cox08}
+{Cox} T.~J., {Younger} J., {Hernquist} L., {Hopkins} P.~F., 2008, in IAU
+  Symposium, Vol. 245, Formation and Evolution of Galaxy Bulges, {Bureau} M.,
+  {Athanassoula} E., {Barbuy} B., eds., pp. 63--66
+
+\bibitem[{{Croton} {et~al}\mbox{.}(2006){Croton}, {Springel}, {White}, {De
+  Lucia}, {Frenk}, {Gao}, {Jenkins}, {Kauffmann}, {Navarro}, \&
+  {Yoshida}}]{Croton06}
+{Croton} D.~J. {et~al.}, 2006, \mnras, 365, 11
+
+\bibitem[{{Danese} {et~al}\mbox{.}(1980){Danese}, {de Zotti}, \& {di
+  Tullio}}]{danese80}
+{Danese} L., {de Zotti} G., {di Tullio} G., 1980, \aap, 82, 322
+
+\bibitem[{{Darg} {et~al}\mbox{.}(2010){Darg}, {Kaviraj}, {Lintott},
+  {Schawinski}, {Sarzi}, {Bamford}, {Silk}, {Proctor}, {Andreescu}, {Murray},
+  {Nichol}, {Raddick}, {Slosar}, {Szalay}, {Thomas}, \& {Vandenberg}}]{Darg10a}
+{Darg} D.~W. {et~al.}, 2010, \mnras, 401, 1043
+
+\bibitem[{{Darvish} {et~al}\mbox{.}(2016){Darvish}, {Mobasher}, {Sobral},
+  {Rettura}, {Scoville}, {Faisst}, \& {Capak}}]{darvish16}
+{Darvish} B., {Mobasher} B., {Sobral} D., {Rettura} A., {Scoville} N., {Faisst}
+  A., {Capak} P., 2016, \apj, 825, 113
+
+\bibitem[{{Dekel} \& {Birnboim}(2006)}]{dekel06}
+{Dekel} A., {Birnboim} Y., 2006, \mnras, 368, 2
+
+\bibitem[{{Del Popolo} {et~al}\mbox{.}(2005){Del Popolo}, {Hiotelis}, \&
+  {Pe{\~n}arrubia}}]{delpopolo05}
+{Del Popolo} A., {Hiotelis} N., {Pe{\~n}arrubia} J., 2005, \apj, 628, 76
+
+\bibitem[{{Diaferio} {et~al}\mbox{.}(2001){Diaferio}, {Kauffmann}, {Balogh},
+  {White}, {Schade}, \& {Ellingson}}]{diaferio01}
+{Diaferio} A., {Kauffmann} G., {Balogh} M.~L., {White} S.~D.~M., {Schade} D.,
+  {Ellingson} E., 2001, \mnras, 323, 999
+
+\bibitem[{{Dressler}(1980)}]{dressler80}
+{Dressler} A., 1980, \apj, 236, 351
+
+\bibitem[{{Dressler}(2004)}]{dressler04}
+{Dressler} A., 2004, in IAU Colloq. 195: Outskirts of Galaxy Clusters: Intense
+  Life in the Suburbs, {Diaferio} A., ed., pp. 341--346
+
+\bibitem[{{Ellison} {et~al}\mbox{.}(2010){Ellison}, {Patton}, {Simard},
+  {McConnachie}, {Baldry}, \& {Mendel}}]{ellison10}
+{Ellison} S.~L., {Patton} D.~R., {Simard} L., {McConnachie} A.~W., {Baldry}
+  I.~K., {Mendel} J.~T., 2010, \mnras, 407, 1514
+
+\bibitem[{{Emerick} {et~al}\mbox{.}(2016){Emerick}, {Mac Low}, {Grcevich}, \&
+  {Gatto}}]{emerick16}
+{Emerick} A., {Mac Low} M.-M., {Grcevich} J., {Gatto} A., 2016, \apj, 826, 148
+
+\bibitem[{{Fabian}(2012)}]{fabian12}
+{Fabian} A.~C., 2012, \araa, 50, 455
+
+\bibitem[{{Fang} {et~al}\mbox{.}(2013){Fang}, {Faber}, {Koo}, \&
+  {Dekel}}]{Fang13}
+{Fang} J.~J., {Faber} S.~M., {Koo} D.~C., {Dekel} A., 2013, \apj, 776, 63
+
+\bibitem[{{Fillingham} {et~al}\mbox{.}(2016){Fillingham}, {Cooper}, {Pace},
+  {Boylan-Kolchin}, {Bullock}, {Garrison-Kimmel}, \& {Wheeler}}]{fillingham16}
+{Fillingham} S.~P., {Cooper} M.~C., {Pace} A.~B., {Boylan-Kolchin} M.,
+  {Bullock} J.~S., {Garrison-Kimmel} S., {Wheeler} C., 2016, \mnras
+
+\bibitem[{{Finn} {et~al}\mbox{.}(2005){Finn}, {Zaritsky}, {McCarthy},
+  {Poggianti}, {Rudnick}, {Halliday}, {Milvang-Jensen}, {Pell{\'o}}, \&
+  {Simard}}]{finn05}
+{Finn} R.~A. {et~al.}, 2005, \apj, 630, 206
+
+\bibitem[{{Foltz} {et~al}\mbox{.}(2015){Foltz}, {Rettura}, {Wilson}, {van der
+  Burg}, {Muzzin}, {Lidman}, {Demarco}, {Nantais}, {DeGroot}, \&
+  {Yee}}]{foltz15}
+{Foltz} R. {et~al.}, 2015, \apj, 812, 138
+
+\bibitem[{{Foreman-Mackey} {et~al}\mbox{.}(2013){Foreman-Mackey}, {Hogg},
+  {Lang}, \& {Goodman}}]{emcee13}
+{Foreman-Mackey} D., {Hogg} D.~W., {Lang} D., {Goodman} J., 2013, \pasp, 125,
+  306
+
+\bibitem[{{Gabor} \& {Dav{\'e}}(2015)}]{gabor15}
+{Gabor} J.~M., {Dav{\'e}} R., 2015, \mnras, 447, 374
+
+\bibitem[{{Gabor} {et~al}\mbox{.}(2010){Gabor}, {Dav{\'e}}, {Finlator}, \&
+  {Oppenheimer}}]{Gabor10}
+{Gabor} J.~M., {Dav{\'e}} R., {Finlator} K., {Oppenheimer} B.~D., 2010, \mnras,
+  407, 749
+
+\bibitem[{{G{\'o}mez} {et~al}\mbox{.}(2003){G{\'o}mez}, {Nichol}, {Miller},
+  {Balogh}, {Goto}, {Zabludoff}, {Romer}, {Bernardi}, {Sheth}, {Hopkins},
+  {Castander}, {Connolly}, {Schneider}, {Brinkmann}, {Lamb}, {SubbaRao}, \&
+  {York}}]{gomez03}
+{G{\'o}mez} P.~L. {et~al.}, 2003, \apj, 584, 210
+
+\bibitem[{{Gunn} \& {Gott}(1972)}]{gunngott72}
+{Gunn} J.~E., {Gott}, III J.~R., 1972, \apj, 176, 1
+
+\bibitem[{{Hahn} {et~al}\mbox{.}(2016){Hahn}, {Tinker}, \& {Wetzel}}]{hahn16}
+{Hahn} C., {Tinker} J.~L., {Wetzel} A.~R., 2016, ArXiv e-prints, 1609.04398
+
+\bibitem[{{H{\"a}ring} \& {Rix}(2004)}]{haringrix04}
+{H{\"a}ring} N., {Rix} H.-W., 2004, \apjl, 604, L89
+
+\bibitem[{{Hart} {et~al}\mbox{.}(2016){Hart}, {Bamford}, {Willett}, {Masters},
+  {Cardamone}, {Lintott}, {Mackay}, {Nichol}, {Rosslowe}, {Simmons}, \&
+  {Smethurst}}]{hart16}
+{Hart} R.~E. {et~al.}, 2016, \mnras, 461, 3663
+
+\bibitem[{{Hatfield} \& {Jarvis}(2016)}]{hatfield16}
+{Hatfield} P.~W., {Jarvis} M.~J., 2016, ArXiv e-prints, 1606.08989
+
+\bibitem[{{Hayward} {et~al}\mbox{.}(2014){Hayward}, {Torrey}, {Springel},
+  {Hernquist}, \& {Vogelsberger}}]{hayward14}
+{Hayward} C.~C., {Torrey} P., {Springel} V., {Hernquist} L., {Vogelsberger} M.,
+  2014, \mnras, 442, 1992
+
+\bibitem[{{Hearin} {et~al}\mbox{.}(2015){Hearin}, {Watson}, \& {van den
+  Bosch}}]{hearin15}
+{Hearin} A.~P., {Watson} D.~F., {van den Bosch} F.~C., 2015, \mnras, 452, 1958
+
+\bibitem[{{Hester}(2006)}]{hester06}
+{Hester} J.~A., 2006, \apj, 647, 910
+
+\bibitem[{{Hickox} {et~al}\mbox{.}(2009){Hickox}, {Jones}, {Forman}, {Murray},
+  {Kochanek}, {Eisenstein}, {Jannuzi}, {Dey}, {Brown}, {Stern}, {Eisenhardt},
+  {Gorjian}, {Brodwin}, {Narayan}, {Cool}, {Kenter}, {Caldwell}, \&
+  {Anderson}}]{Hickox09}
+{Hickox} R.~C. {et~al.}, 2009, \apj, 696, 891
+
+\bibitem[{{Hirschmann} {et~al}\mbox{.}(2014){Hirschmann}, {De Lucia}, {Wilman},
+  {Weinmann}, {Iovino}, {Cucciati}, {Zibetti}, \& {Villalobos}}]{hirschmann14}
+{Hirschmann} M., {De Lucia} G., {Wilman} D., {Weinmann} S., {Iovino} A.,
+  {Cucciati} O., {Zibetti} S., {Villalobos} {\'A}., 2014, \mnras, 444, 2938
+
+\bibitem[{{Hopkins} {et~al}\mbox{.}(2008{\natexlab{a}}){Hopkins}, {Cox},
+  {Kere{\v s}}, \& {Hernquist}}]{hopkins08b}
+{Hopkins} P.~F., {Cox} T.~J., {Kere{\v s}} D., {Hernquist} L.,
+  2008{\natexlab{a}}, \apjs, 175, 390
+
+\bibitem[{{Hopkins} {et~al}\mbox{.}(2009){Hopkins}, {Cox}, {Younger}, \&
+  {Hernquist}}]{hopkins09c}
+{Hopkins} P.~F., {Cox} T.~J., {Younger} J.~D., {Hernquist} L., 2009, \apj, 691,
+  1168
+
+\bibitem[{{Hopkins} {et~al}\mbox{.}(2006{\natexlab{a}}){Hopkins}, {Hernquist},
+  {Cox}, {Di Matteo}, {Robertson}, \& {Springel}}]{hopkins06d}
+{Hopkins} P.~F., {Hernquist} L., {Cox} T.~J., {Di Matteo} T., {Robertson} B.,
+  {Springel} V., 2006{\natexlab{a}}, \apjs, 163, 1
+
+\bibitem[{{Hopkins} {et~al}\mbox{.}(2008{\natexlab{b}}){Hopkins}, {Hernquist},
+  {Cox}, \& {Kere{\v s}}}]{hopkins08a}
+{Hopkins} P.~F., {Hernquist} L., {Cox} T.~J., {Kere{\v s}} D.,
+  2008{\natexlab{b}}, \apjs, 175, 356
+
+\bibitem[{{Hopkins} {et~al}\mbox{.}(2005){Hopkins}, {Hernquist}, {Cox},
+  {Robertson}, {Di Matteo}, {Springel}, {Martini}, {Somerville}, \&
+  {Li}}]{hopkins05}
+{Hopkins} P.~F. {et~al.}, 2005, in Bulletin of the American Astronomical
+  Society, Vol.~37, American Astronomical Society Meeting Abstracts, p. 1354
+
+\bibitem[{{Hopkins} {et~al}\mbox{.}(2012){Hopkins}, {Kere{\v s}}, {Murray},
+  {Quataert}, \& {Hernquist}}]{hopkins11c}
+{Hopkins} P.~F., {Kere{\v s}} D., {Murray} N., {Quataert} E., {Hernquist} L.,
+  2012, \mnras, 427, 968
+
+\bibitem[{{Hopkins} {et~al}\mbox{.}(2006{\natexlab{b}}){Hopkins}, {Somerville},
+  {Hernquist}, {Cox}, {Robertson}, \& {Li}}]{hopkins06b}
+{Hopkins} P.~F., {Somerville} R.~S., {Hernquist} L., {Cox} T.~J., {Robertson}
+  B., {Li} Y., 2006{\natexlab{b}}, \apj, 652, 864
+
+\bibitem[{{Huertas-Company} {et~al}\mbox{.}(2016){Huertas-Company}, {Bernardi},
+  {P{\'e}rez-Gonz{\'a}lez}, {Ashby}, {Barro}, {Conselice}, {Daddi}, {Dekel},
+  {Dimauro}, {Faber}, {Grogin}, {Kartaltepe}, {Kocevski}, {Koekemoer}, {Koo},
+  {Mei}, \& {Shankar}}]{huertascompany16}
+{Huertas-Company} M. {et~al.}, 2016, \mnras, 462, 4495
+
+\bibitem[{{Jahnke} \& {Macci{\`o}}(2011)}]{jahnke11}
+{Jahnke} K., {Macci{\`o}} A.~V., 2011, \apj, 734, 92
+
+\bibitem[{{Jarosik} {et~al}\mbox{.}(2011){Jarosik}, {Bennett}, {Dunkley},
+  {Gold}, {Greason}, {Halpern}, {Hill}, {Hinshaw}, {Kogut}, {Komatsu},
+  {Larson}, {Limon}, {Meyer}, {Nolta}, {Odegard}, {Page}, {Smith}, {Spergel},
+  {Tucker}, {Weiland}, {Wollack}, \& {Wright}}]{jarosik11}
+{Jarosik} N. {et~al.}, 2011, \apjs, 192, 14
+
+\bibitem[{{Jones} {et~al}\mbox{.}(2000){Jones}, {Ponman}, \&
+  {Forbes}}]{jones00}
+{Jones} L.~R., {Ponman} T.~J., {Forbes} D.~A., 2000, \mnras, 312, 139
+
+\bibitem[{{Jones} {et~al}\mbox{.}(2003){Jones}, {Ponman}, {Horton}, {Babul},
+  {Ebeling}, \& {Burke}}]{jones03}
+{Jones} L.~R., {Ponman} T.~J., {Horton} A., {Babul} A., {Ebeling} H., {Burke}
+  D.~J., 2003, \mnras, 343, 627
+
+\bibitem[{{Kauffmann}(1996)}]{kauffmann96}
+{Kauffmann} G., 1996, \mnras, 281, 487
+
+\bibitem[{{Kauffmann} {et~al}\mbox{.}(1999{\natexlab{a}}){Kauffmann},
+  {Colberg}, {Diaferio}, \& {White}}]{kauffmann99a}
+{Kauffmann} G., {Colberg} J.~M., {Diaferio} A., {White} S.~D.~M.,
+  1999{\natexlab{a}}, \mnras, 303, 188
+
+\bibitem[{{Kauffmann} {et~al}\mbox{.}(1999{\natexlab{b}}){Kauffmann},
+  {Colberg}, {Diaferio}, \& {White}}]{kauffmann99b}
+{Kauffmann} G., {Colberg} J.~M., {Diaferio} A., {White} S.~D.~M.,
+  1999{\natexlab{b}}, \mnras, 307, 529
+
+\bibitem[{{Kauffmann} {et~al}\mbox{.}(2003){Kauffmann}, {Heckman}, {White},
+  {Charlot}, {Tremonti}, {Brinchmann}, {Bruzual}, {Peng}, {Seibert},
+  {Bernardi}, {Blanton}, {Brinkmann}, {Castander}, {Cs{\'a}bai}, {Fukugita},
+  {Ivezic}, {Munn}, {Nichol}, {Padmanabhan}, {Thakar}, {Weinberg}, \&
+  {York}}]{kauffmann03}
+{Kauffmann} G. {et~al.}, 2003, \mnras, 341, 33
+
+\bibitem[{{Kauffmann} {et~al}\mbox{.}(2013){Kauffmann}, {Li}, {Zhang}, \&
+  {Weinmann}}]{kauffmann13}
+{Kauffmann} G., {Li} C., {Zhang} W., {Weinmann} S., 2013, \mnras, 430, 1447
+
+\bibitem[{{Kennicutt}(1998)}]{kennicutt98}
+{Kennicutt}, Jr. R.~C., 1998, \apj, 498, 541
+
+\bibitem[{{Kimm} {et~al}\mbox{.}(2009){Kimm}, {Somerville}, {Yi}, {van den
+  Bosch}, {Salim}, {Fontanot}, {Monaco}, {Mo}, {Pasquali}, {Rich}, \&
+  {Yang}}]{kimm09}
+{Kimm} T. {et~al.}, 2009, \mnras, 394, 1131
+
+\bibitem[{{Kimm} {et~al}\mbox{.}(2011){Kimm}, {Yi}, \& {Khochfar}}]{kimm11}
+{Kimm} T., {Yi} S.~K., {Khochfar} S., 2011, \apj, 729, 11
+
+\bibitem[{{Kitzbichler} \& {White}(2006)}]{kitzbichler06}
+{Kitzbichler} M.~G., {White} S.~D.~M., 2006, \mnras, 366, 858
+
+\bibitem[{{Kormendy} \& {Kennicutt}(2004)}]{kormendy04}
+{Kormendy} J., {Kennicutt}, Jr. R.~C., 2004, \araa, 42, 603
+
+\bibitem[{{Larson} {et~al}\mbox{.}(1980){Larson}, {Tinsley}, \&
+  {Caldwell}}]{larson80}
+{Larson} R.~B., {Tinsley} B.~M., {Caldwell} C.~N., 1980, \apj, 237, 692
+
+\bibitem[{{Lidman} {et~al}\mbox{.}(2013){Lidman}, {Iacobuta}, {Bauer},
+  {Barrientos}, {Cerulo}, {Couch}, {Delaye}, {Demarco}, {Ellingson}, {Faloon},
+  {Gilbank}, {Huertas-Company}, {Mei}, {Meyers}, {Muzzin}, {Noble}, {Nantais},
+  {Rettura}, {Rosati}, {S{\'a}nchez-Janssen}, {Strazzullo}, {Webb}, {Wilson},
+  {Yan}, \& {Yee}}]{lidman13}
+{Lidman} C. {et~al.}, 2013, \mnras, 433, 825
+
+\bibitem[{{Lin} {et~al}\mbox{.}(2010){Lin}, {Cooper}, {Jian}, {Koo}, {Patton},
+  {Yan}, {Willmer}, {Coil}, {Chiueh}, {Croton}, {Gerke}, {Lotz},
+  {Guhathakurta}, \& {Newman}}]{lin10}
+{Lin} L. {et~al.}, 2010, \apj, 718, 1158
+
+\bibitem[{{Liu} {et~al}\mbox{.}(2009){Liu}, {Mao}, {Deng}, {Xia}, \&
+  {Wen}}]{liu09}
+{Liu} F.~S., {Mao} S., {Deng} Z.~G., {Xia} X.~Y., {Wen} Z.~L., 2009, \mnras,
+  396, 2003
+
+\bibitem[{{Magorrian} {et~al}\mbox{.}(1998){Magorrian}, {Tremaine},
+  {Richstone}, {Bender}, {Bower}, {Dressler}, {Faber}, {Gebhardt}, {Green},
+  {Grillmair}, {Kormendy}, \& {Lauer}}]{magorrian98}
+{Magorrian} J. {et~al.}, 1998, \aj, 115, 2285
+
+\bibitem[{{Maier} {et~al}\mbox{.}(2016){Maier}, {Kuchner}, {Ziegler},
+  {Verdugo}, {Balestra}, {Girardi}, {Mercurio}, {Rosati}, {Fritz}, {Grillo},
+  {Nonino}, \& {Sartoris}}]{maier16}
+{Maier} C. {et~al.}, 2016, \aap, 590, A108
+
+\bibitem[{{Marconi} \& {Hunt}(2003)}]{marconi03}
+{Marconi} A., {Hunt} L.~K., 2003, \apjl, 589, L21
+
+\bibitem[{{Martig} {et~al}\mbox{.}(2012){Martig}, {Bournaud}, {Croton},
+  {Dekel}, \& {Teyssier}}]{martig12}
+{Martig} M., {Bournaud} F., {Croton} D.~J., {Dekel} A., {Teyssier} R., 2012,
+  \apj, 756, 26
+
+\bibitem[{{Martin} {et~al}\mbox{.}(2005){Martin}, {Fanson}, {Schiminovich},
+  {Morrissey}, {Friedman}, {Barlow}, {Conrow}, {Grange}, {Jelinsky},
+  {Milliard}, {Siegmund}, {Bianchi}, {Byun}, {Donas}, {Forster}, {Heckman},
+  {Lee}, {Madore}, {Malina}, {Neff}, {Rich}, {Small}, {Surber}, {Szalay},
+  {Welsh}, \& {Wyder}}]{martin05}
+{Martin} D.~C. {et~al.}, 2005, \apjl, 619, L1
+
+\bibitem[{{Martin} {et~al}\mbox{.}(2007){Martin}, {Wyder}, {Schiminovich},
+  {Barlow}, {Forster}, {Friedman}, {Morrissey}, {Neff}, {Seibert}, {Small},
+  {Welsh}, {Bianchi}, {Donas}, {Heckman}, {Lee}, {Madore}, {Milliard}, {Rich},
+  {Szalay}, \& {Yi}}]{Martin07}
+{Martin} D.~C. {et~al.}, 2007, \apjs, 173, 342
+
+\bibitem[{{Masters} {et~al}\mbox{.}(2010){Masters}, {Mosleh}, {Romer},
+  {Nichol}, {Bamford}, {Schawinski}, {Lintott}, {Andreescu}, {Campbell},
+  {Crowcroft}, {Doyle}, {Edmondson}, {Murray}, {Raddick}, {Slosar}, {Szalay},
+  \& {Vandenberg}}]{masters10c}
+{Masters} K.~L. {et~al.}, 2010, \mnras, 405, 783
+
+\bibitem[{{Masters} {et~al}\mbox{.}(2011){Masters}, {Nichol}, {Hoyle},
+  {Lintott}, {Bamford}, {Edmondson}, {Fortson}, {Keel}, {Schawinski}, {Smith},
+  \& {Thomas}}]{masters11a}
+{Masters} K.~L. {et~al.}, 2011, \mnras, 411, 2026
+
+\bibitem[{{McIntosh} {et~al}\mbox{.}(2008){McIntosh}, {Guo}, {Hertzberg},
+  {Katz}, {Mo}, {van den Bosch}, \& {Yang}}]{mcintosh08}
+{McIntosh} D.~H., {Guo} Y., {Hertzberg} J., {Katz} N., {Mo} H.~J., {van den
+  Bosch} F.~C., {Yang} X., 2008, \mnras, 388, 1537
+
+\bibitem[{{Merritt} \& {Ferrarese}(2001)}]{merritt01}
+{Merritt} D., {Ferrarese} L., 2001, \mnras, 320, L30
+
+\bibitem[{{Mihos} \& {Hernquist}(1994)}]{mihos94}
+{Mihos} J.~C., {Hernquist} L., 1994, \apjl, 431, L9
+
+\bibitem[{{Mihos} \& {Hernquist}(1996)}]{mihos96}
+{Mihos} J.~C., {Hernquist} L., 1996, \apj, 464, 641
+
+\bibitem[{{Moore} {et~al}\mbox{.}(1996){Moore}, {Katz}, {Lake}, {Dressler}, \&
+  {Oemler}}]{moore96}
+{Moore} B., {Katz} N., {Lake} G., {Dressler} A., {Oemler} A., 1996, Nature,
+  379, 613–616
+
+\bibitem[{{Muzzin} {et~al}\mbox{.}(2012){Muzzin}, {Wilson}, {Yee}, {Gilbank},
+  {Hoekstra}, {Demarco}, {Balogh}, {van Dokkum}, {Franx}, {Ellingson}, {Hicks},
+  {Nantais}, {Noble}, {Lacy}, {Lidman}, {Rettura}, {Surace}, \&
+  {Webb}}]{muzzin12}
+{Muzzin} A. {et~al.}, 2012, \apj, 746, 188
+
+\bibitem[{{Nair} \& {Abraham}(2010)}]{nair10}
+{Nair} P.~B., {Abraham} R.~G., 2010, ApJL, 714, L260Ã¢â‚¬â€œL264
+
+\bibitem[{{Navarro} {et~al}\mbox{.}(1995){Navarro}, {Frenk}, \&
+  {White}}]{navarro95}
+{Navarro} J.~F., {Frenk} C.~S., {White} S.~D.~M., 1995, \mnras, 275, 56
+
+\bibitem[{{Noeske} {et~al}\mbox{.}(2007){Noeske}, {Weiner}, {Faber},
+  {Papovich}, {Koo}, {Somerville}, {Bundy}, {Conselice}, {Newman},
+  {Schiminovich}, {Le Floc'h}, {Coil}, {Rieke}, {Lotz}, {Primack}, {Barmby},
+  {Cooper}, {Davis}, {Ellis}, {Fazio}, {Guhathakurta}, {Huang}, {Kassin},
+  {Martin}, {Phillips}, {Rich}, {Small}, {Willmer}, \& {Wilson}}]{Noeske07}
+{Noeske} K.~G. {et~al.}, 2007, \apjl, 660, L43
+
+\bibitem[{{Noguchi}(1988)}]{noguchi88}
+{Noguchi} M., 1988, \aap, 203, 259
+
+\bibitem[{{Nulsen}(1982)}]{nulsen82}
+{Nulsen} P.~E.~J., 1982, \mnras, 198, 1007
+
+\bibitem[{{Oh} {et~al}\mbox{.}(2011){Oh}, {Sarzi}, {Schawinski}, \&
+  {Yi}}]{Oh11}
+{Oh} K., {Sarzi} M., {Schawinski} K., {Yi} S.~K., 2011, \apjs, 195, 13
+
+\bibitem[{{Oman} \& {Hudson}(2016)}]{oman16}
+{Oman} K.~A., {Hudson} M.~J., 2016, \mnras, 463, 3083
+
+\bibitem[{{Paccagnella} {et~al}\mbox{.}(2016){Paccagnella}, {Vulcani},
+  {Poggianti}, {Moretti}, {Fritz}, {Gullieuszik}, {Couch}, {Bettoni}, {Cava},
+  {D'Onofrio}, \& {Fasano}}]{paccagnella16}
+{Paccagnella} A. {et~al.}, 2016, \apjl, 816, L25
+
+\bibitem[{{Padmanabhan} {et~al}\mbox{.}(2008){Padmanabhan}, {Schlegel},
+  {Finkbeiner}, {Barentine}, {Blanton}, {Brewington}, {Gunn}, {Harvanek},
+  {Hogg}, {Ivezi{\'c}}, {Johnston}, {Kent}, {Kleinman}, {Knapp}, {Krzesinski},
+  {Long}, {Neilsen}, {Nitta}, {Loomis}, {Lupton}, {Roweis}, {Snedden},
+  {Strauss}, \& {Tucker}}]{padmanabhan08}
+{Padmanabhan} N. {et~al.}, 2008, \apj, 674, 1217
+
+\bibitem[{{Pasquali} {et~al}\mbox{.}(2010){Pasquali}, {Gallazzi}, {Fontanot},
+  {van den Bosch}, {De Lucia}, {Mo}, \& {Yang}}]{pasquali10}
+{Pasquali} A., {Gallazzi} A., {Fontanot} F., {van den Bosch} F.~C., {De Lucia}
+  G., {Mo} H.~J., {Yang} X., 2010, \mnras, 407, 937
+
+\bibitem[{{Peng}(2007)}]{peng07}
+{Peng} C.~Y., 2007, \apj, 671, 1098
+
+\bibitem[{{Peng} {et~al}\mbox{.}(2015){Peng}, {Maiolino}, \&
+  {Cochrane}}]{peng15}
+{Peng} Y., {Maiolino} R., {Cochrane} R., 2015, \nat, 521, 192
+
+\bibitem[{{Peng} {et~al}\mbox{.}(2010){Peng}, {Lilly}, {Kova{\v c}},
+  {Bolzonella}, {Pozzetti}, {Renzini}, {Zamorani}, {Ilbert}, {Knobel},
+  {Iovino}, {Maier}, {Cucciati}, {Tasca}, {Carollo}, {Silverman}, {Kampczyk},
+  {de Ravel}, {Sanders}, {Scoville}, {Contini}, {Mainieri}, {Scodeggio},
+  {Kneib}, {Le F{\`e}vre}, {Bardelli}, {Bongiorno}, {Caputi}, {Coppa}, {de la
+  Torre}, {Franzetti}, {Garilli}, {Lamareille}, {Le Borgne}, {Le Brun},
+  {Mignoli}, {Perez Montero}, {Pello}, {Ricciardelli}, {Tanaka}, {Tresse},
+  {Vergani}, {Welikala}, {Zucca}, {Oesch}, {Abbas}, {Barnes}, {Bordoloi},
+  {Bottini}, {Cappi}, {Cassata}, {Cimatti}, {Fumana}, {Hasinger}, {Koekemoer},
+  {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux}, {Nair},
+  {Porciani}, {Presotto}, \& {Scaramella}}]{peng10}
+{Peng} Y.-j. {et~al.}, 2010, \apj, 721, 193
+
+\bibitem[{{Peng} {et~al}\mbox{.}(2012){Peng}, {Lilly}, {Renzini}, \&
+  {Carollo}}]{peng12}
+{Peng} Y.-j., {Lilly} S.~J., {Renzini} A., {Carollo} M., 2012, \apj, 757, 4
+
+\bibitem[{{Phillips} {et~al}\mbox{.}(2015){Phillips}, {Wheeler}, {Cooper},
+  {Boylan-Kolchin}, {Bullock}, \& {Tollerud}}]{phillips15}
+{Phillips} J.~I., {Wheeler} C., {Cooper} M.~C., {Boylan-Kolchin} M., {Bullock}
+  J.~S., {Tollerud} E., 2015, \mnras, 447, 698
+
+\bibitem[{{Pimbblet}(2011)}]{pimbblet11}
+{Pimbblet} K.~A., 2011, \mnras, 411, 2637
+
+\bibitem[{{Pimbblet} {et~al}\mbox{.}(2002){Pimbblet}, {Smail}, {Kodama},
+  {Couch}, {Edge}, {Zabludoff}, \& {O'Hely}}]{pimbblet02}
+{Pimbblet} K.~A., {Smail} I., {Kodama} T., {Couch} W.~J., {Edge} A.~C.,
+  {Zabludoff} A.~I., {O'Hely} E., 2002, \mnras, 331, 333
+
+\bibitem[{{Poggianti} {et~al}\mbox{.}(1999){Poggianti}, {Smail}, {Dressler},
+  {Couch}, {Barger}, {Butcher}, {Ellis}, \& {Oemler}}]{poggianti99}
+{Poggianti} B.~M., {Smail} I., {Dressler} A., {Couch} W.~J., {Barger} A.~J.,
+  {Butcher} H., {Ellis} R.~S., {Oemler}, Jr. A., 1999, \apj, 518, 576
+
+\bibitem[{{Ponman} {et~al}\mbox{.}(1994){Ponman}, {Allan}, {Jones},
+  {Merrifield}, {McHardy}, {Lehto}, \& {Luppino}}]{ponman94}
+{Ponman} T.~J., {Allan} D.~J., {Jones} L.~R., {Merrifield} M., {McHardy} I.~M.,
+  {Lehto} H.~J., {Luppino} G.~A., 1994, \nat, 369, 462
+
+\bibitem[{{Pontzen} {et~al}\mbox{.}(2016){Pontzen}, {Tremmel}, {Roth},
+  {Peiris}, {Saintonge}, {Volonteri}, {Quinn}, \& {Governato}}]{pontzen16}
+{Pontzen} A., {Tremmel} M., {Roth} N., {Peiris} H.~V., {Saintonge} A.,
+  {Volonteri} M., {Quinn} T., {Governato} F., 2016, ArXiv e-prints, 1607.02507
+
+\bibitem[{{Postman} {et~al}\mbox{.}(2005){Postman}, {Franx}, {Cross}, {Holden},
+  {Ford}, {Illingworth}, {Goto}, {Demarco}, {Rosati}, {Blakeslee}, {Tran},
+  {Ben{\'{\i}}tez}, {Clampin}, {Hartig}, {Homeier}, {Ardila}, {Bartko},
+  {Bouwens}, {Bradley}, {Broadhurst}, {Brown}, {Burrows}, {Cheng}, {Feldman},
+  {Golimowski}, {Gronwall}, {Infante}, {Kimble}, {Krist}, {Lesser}, {Martel},
+  {Mei}, {Menanteau}, {Meurer}, {Miley}, {Motta}, {Sirianni}, {Sparks}, {Tran},
+  {Tsvetanov}, {White}, \& {Zheng}}]{postman05}
+{Postman} M. {et~al.}, 2005, \apj, 623, 721
+
+\bibitem[{{Roberts} {et~al}\mbox{.}(2016){Roberts}, {Parker}, \&
+  {Karunakaran}}]{roberts16}
+{Roberts} I.~D., {Parker} L.~C., {Karunakaran} A., 2016, \mnras, 455, 3628
+
+\bibitem[{{Schawinski} {et~al}\mbox{.}(2014){Schawinski}, {Urry}, {Simmons},
+  {Fortson}, {Kaviraj}, {Keel}, {Lintott}, {Masters}, {Nichol}, {Sarzi},
+  {Skibba}, {Treister}, {Willett}, {Wong}, \& {Yi}}]{schawinski14}
+{Schawinski} K. {et~al.}, 2014, \mnras, 440, 889
+
+\bibitem[{{Schawinski} {et~al}\mbox{.}(2010){Schawinski}, {Urry}, {Virani},
+  {Coppi}, {Bamford}, {Treister}, {Lintott}, {Sarzi}, {Keel}, {Kaviraj},
+  {Cardamone}, {Masters}, {Ross}, {Andreescu}, {Murray}, {Nichol}, {Raddick},
+  {Slosar}, {Szalay}, {Thomas}, \& {Vandenberg}}]{schawinski10a}
+{Schawinski} K. {et~al.}, 2010, \apj, 711, 284
+
+\bibitem[{{Schmidt}(1959)}]{schmidt59}
+{Schmidt} M., 1959, \apj, 129, 243
+
+\bibitem[{{Sheth} {et~al}\mbox{.}(2005){Sheth}, {Vogel}, {Regan}, {Thornley},
+  \& {Teuben}}]{sheth05}
+{Sheth} K., {Vogel} S.~N., {Regan} M.~W., {Thornley} M.~D., {Teuben} P.~J.,
+  2005, \apj, 632, 217
+
+\bibitem[{{Shimizu} {et~al}\mbox{.}(2003){Shimizu}, {Kitayama}, {Sasaki}, \&
+  {Suto}}]{shimizu03}
+{Shimizu} M., {Kitayama} T., {Sasaki} S., {Suto} Y., 2003, \apj, 590, 197
+
+\bibitem[{{Silk} \& {Rees}(1998)}]{silk98}
+{Silk} J., {Rees} M.~J., 1998, \aap, 331, L1
+
+\bibitem[{{Skibba} {et~al}\mbox{.}(2012){Skibba}, {Masters}, {Nichol},
+  {Zehavi}, {Hoyle}, {Edmondson}, {Bamford}, {Cardamone}, {Keel}, {Lintott}, \&
+  {Schawinski}}]{skibba12}
+{Skibba} R.~A. {et~al.}, 2012, \mnras, 423, 1485
+
+\bibitem[{{Smail} {et~al}\mbox{.}(1997){Smail}, {Dressler}, {Couch}, {Ellis},
+  {Oemler}, {Butcher}, \& {Sharples}}]{smail97}
+{Smail} I., {Dressler} A., {Couch} W.~J., {Ellis} R.~S., {Oemler}, Jr. A.,
+  {Butcher} H., {Sharples} R.~M., 1997, \apjs, 110, 213
+
+\bibitem[{{Smethurst} {et~al}\mbox{.}(2016){Smethurst}, {Lintott}, {Simmons},
+  {Schawinski}, {Bamford}, {Cardamone}, {Kruk}, {Masters}, {Urry}, {Willett},
+  \& {Wong}}]{smethurst16}
+{Smethurst} R.~J. {et~al.}, 2016, \mnras, 463, 2986
+
+\bibitem[{{Smethurst} {et~al}\mbox{.}(2015){Smethurst}, {Lintott}, {Simmons},
+  {Schawinski}, {Marshall}, {Bamford}, {Fortson}, {Kaviraj}, {Masters},
+  {Melvin}, {Nichol}, {Skibba}, \& {Willett}}]{smethurst15}
+{Smethurst} R.~J. {et~al.}, 2015, \mnras, 450, 435
+
+\bibitem[{{Smith} {et~al}\mbox{.}(2015){Smith}, {S{\'a}nchez-Janssen},
+  {Beasley}, {Candlish}, {Gibson}, {Puzia}, {Janz}, {Knebe}, {Aguerri},
+  {Lisker}, {Hensler}, {Fellhauer}, {Ferrarese}, \& {Yi}}]{smith15b}
+{Smith} R. {et~al.}, 2015, \mnras, 454, 2502
+
+\bibitem[{{Snyder} {et~al}\mbox{.}(2011){Snyder}, {Cox}, {Hayward},
+  {Hernquist}, \& {Jonsson}}]{snyder11}
+{Snyder} G.~F., {Cox} T.~J., {Hayward} C.~C., {Hernquist} L., {Jonsson} P.,
+  2011, \apj, 741, 77
+
+\bibitem[{{Somerville} {et~al}\mbox{.}(2008){Somerville}, {Hopkins}, {Cox},
+  {Robertson}, \& {Hernquist}}]{somerville08}
+{Somerville} R.~S., {Hopkins} P.~F., {Cox} T.~J., {Robertson} B.~E.,
+  {Hernquist} L., 2008, \mnras, 391, 481
+
+\bibitem[{{Somerville} {et~al}\mbox{.}(2001){Somerville}, {Primack}, \&
+  {Faber}}]{somerville01}
+{Somerville} R.~S., {Primack} J.~R., {Faber} S.~M., 2001, \mnras, 320, 504
+
+\bibitem[{{Sparre} \& {Springel}(2016)}]{sparre16}
+{Sparre} M., {Springel} V., 2016, ArXiv e-prints, 1610.03850
+
+\bibitem[{{Springel} {et~al}\mbox{.}(2005){Springel}, {Di Matteo}, \&
+  {Hernquist}}]{springel05b}
+{Springel} V., {Di Matteo} T., {Hernquist} L., 2005, \apjl, 620, L79
+
+\bibitem[{{Taylor}(2005)}]{taylor05}
+{Taylor} M.~B., 2005, in Astronomical Society of the Pacific Conference Series,
+  Vol. 347, Astronomical Data Analysis Software and Systems XIV, {Shopbell} P.,
+  {Britton} M., {Ebert} R., eds., p.~29
+
+\bibitem[{{Tonini} {et~al}\mbox{.}(2016){Tonini}, {Mutch}, {Croton}, \&
+  {Wyithe}}]{tonini16}
+{Tonini} C., {Mutch} S.~J., {Croton} D.~J., {Wyithe} J.~S.~B., 2016, \mnras,
+  459, 4109
+
+\bibitem[{{Toomre}(1977)}]{toomre77}
+{Toomre} A., 1977, in Evolution of Galaxies and Stellar Populations,
+  {B.~M.~Tinsley \& R.~B.~G.~Larson D.~Campbell}, ed., p. 401
+
+\bibitem[{{Toomre} \& {Toomre}(1972)}]{toomre72}
+{Toomre} A., {Toomre} J., 1972, \apj, 178, 623
+
+\bibitem[{{Treister} {et~al}\mbox{.}(2012){Treister}, {Schawinski}, {Urry}, \&
+  {Simmons}}]{treister12}
+{Treister} E., {Schawinski} K., {Urry} C.~M., {Simmons} B.~D., 2012, \apjl,
+  758, L39
+
+\bibitem[{{van de Voort} {et~al}\mbox{.}(2016){van de Voort}, {Bah{\'e}},
+  {Bower}, {Correa}, {Crain}, {Schaye}, \& {Theuns}}]{vandevoort16}
+{van de Voort} F., {Bah{\'e}} Y.~M., {Bower} R.~G., {Correa} C.~A., {Crain}
+  R.~A., {Schaye} J., {Theuns} T., 2016, ArXiv e-prints, 1611.03870
+
+\bibitem[{{Walker} {et~al}\mbox{.}(1996){Walker}, {Mihos}, \&
+  {Hernquist}}]{walker96}
+{Walker} I.~R., {Mihos} J.~C., {Hernquist} L., 1996, \apj, 460, 121
+
+\bibitem[{{Wang} {et~al}\mbox{.}(2014){Wang}, {Sales}, {Henriques}, \&
+  {White}}]{wang14}
+{Wang} W., {Sales} L.~V., {Henriques} B.~M.~B., {White} S.~D.~M., 2014, \mnras,
+  442, 1363
+
+\bibitem[{{Weiner} {et~al}\mbox{.}(2006){Weiner}, {Willmer}, {Faber}, {Harker},
+  {Kassin}, {Phillips}, {Melbourne}, {Metevier}, {Vogt}, \& {Koo}}]{Weiner06}
+{Weiner} B.~J. {et~al.}, 2006, \apj, 653, 1049
+
+\bibitem[{{Weinmann} {et~al}\mbox{.}(2006){Weinmann}, {van den Bosch}, {Yang},
+  \& {Mo}}]{weinmann06}
+{Weinmann} S.~M., {van den Bosch} F.~C., {Yang} X., {Mo} H.~J., 2006, \mnras,
+  366, 2
+
+\bibitem[{{Wetzel} {et~al}\mbox{.}(2013){Wetzel}, {Tinker}, {Conroy}, \& {van
+  den Bosch}}]{wetzel13}
+{Wetzel} A.~R., {Tinker} J.~L., {Conroy} C., {van den Bosch} F.~C., 2013,
+  \mnras, 432, 336
+
+\bibitem[{{Whitaker} {et~al}\mbox{.}(2016){Whitaker}, {Bezanson}, {van Dokkum},
+  {Franx}, {van der Wel}, {Brammer}, {Forster-Schreiber}, {Giavalisco},
+  {Labbe}, {Momcheva}, {Nelson}, \& {Skelton}}]{whitaker16}
+{Whitaker} K.~E. {et~al.}, 2016, ArXiv e-prints, 1607.03107
+
+\bibitem[{{Willett} {et~al}\mbox{.}(2013){Willett}, {Lintott}, {Bamford},
+  {Masters}, {Simmons}, {Casteels}, {Edmondson}, {Fortson}, {Kaviraj}, {Keel},
+  {Melvin}, {Nichol}, {Raddick}, {Schawinski}, {Simpson}, {Skibba}, {Smith}, \&
+  {Thomas}}]{GZ2}
+{Willett} K.~W. {et~al.}, 2013, \mnras, 435, 2835
+
+\bibitem[{{Woo} {et~al}\mbox{.}(2015){Woo}, {Dekel}, {Faber}, \& {Koo}}]{woo15}
+{Woo} J., {Dekel} A., {Faber} S.~M., {Koo} D.~C., 2015, \mnras, 448, 237
+
+\bibitem[{{Wyder} {et~al}\mbox{.}(2007){Wyder}, {Martin}, {Schiminovich},
+  {Seibert}, {Budav{\'a}ri}, {Treyer}, {Barlow}, {Forster}, {Friedman},
+  {Morrissey}, {Neff}, {Small}, {Bianchi}, {Donas}, {Heckman}, {Lee}, {Madore},
+  {Milliard}, {Rich}, {Szalay}, {Welsh}, \& {Yi}}]{wyder07}
+{Wyder} T.~K. {et~al.}, 2007, \apjs, 173, 293
+
+\bibitem[{{Yang} {et~al}\mbox{.}(2009){Yang}, {Mo}, \& {van den
+  Bosch}}]{yang09}
+{Yang} X., {Mo} H.~J., {van den Bosch} F.~C., 2009, \apj, 695, 900
+
+\bibitem[{{Yang} {et~al}\mbox{.}(2007){Yang}, {Mo}, {van den Bosch},
+  {Pasquali}, {Li}, \& {Barden}}]{yang07}
+{Yang} X., {Mo} H.~J., {van den Bosch} F.~C., {Pasquali} A., {Li} C., {Barden}
+  M., 2007, \apj, 671, 153
+
+\bibitem[{{Yesuf} {et~al}\mbox{.}(2014){Yesuf}, {Faber}, {Trump}, {Koo},
+  {Fang}, {Liu}, {Wild}, \& {Hayward}}]{yesuf14}
+{Yesuf} H.~M., {Faber} S.~M., {Trump} J.~R., {Koo} D.~C., {Fang} J.~J., {Liu}
+  F.~S., {Wild} V., {Hayward} C.~C., 2014, \apj, 792, 84
+
+\bibitem[{{York} {et~al}\mbox{.}(2000){York}, {Adelman}, {Anderson},
+  {Anderson}, {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman},
+  {Boroski}, {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles},
+  {Carey}, {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker},
+  {Csabai}, {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman},
+  {Elms}, {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman},
+  {Fukugita}, {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris},
+  {Hayes}, {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang},
+  {Hull}, {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi{\'c}}, {Kent}, {Kim},
+  {Kinney}, {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron},
+  {Kunszt}, {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long},
+  {Loomis}, {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch},
+  {Margon}, {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn},
+  {Narayanan}, {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski},
+  {Nonino}, {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples},
+  {Peterson}, {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio},
+  {Rechenmacher}, {Quinn}, {Richards}, {Richmond}, {Rivetta}, {Rockosi},
+  {Ruthmansdorfer}, {Sandford}, {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey},
+  {Shimasaku}, {Siegmund}, {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton},
+  {Strauss}, {Stubbs}, {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar},
+  {Tremonti}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang},
+  {Watanabe}, {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{york00}
+{York} D.~G. {et~al.}, 2000, \aj, 120, 1579
+
+\bibitem[{{Zurita} {et~al}\mbox{.}(2004){Zurita}, {Rela{\~n}o}, {Beckman}, \&
+  {Knapen}}]{zurita04}
+{Zurita} A., {Rela{\~n}o} M., {Beckman} J.~E., {Knapen} J.~H., 2004, \aap, 413,
+  73
+
+\bibitem[{{Zwicky}(1938)}]{zwicky38}
+{Zwicky} F., 1938, \pasp, 50, 218
+
+\bibitem[{{Zwicky}(1952)}]{zwicky52}
+{Zwicky} F., 1952, \pasp, 64, 247
+
+\end{thebibliography}
