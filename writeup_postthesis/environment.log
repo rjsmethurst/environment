@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.23)  8 DEC 2016 17:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.23)  9 DEC 2016 11:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -374,134 +374,140 @@ LaTeX Info: Redefining \nameref on input line 19.
 \@outlinefile=\write3
 \openout3 = `environment.out'.
 
-LaTeX Font Info:    Try loading font information for U+eur on input line 28.
+LaTeX Font Info:    Try loading font information for U+eur on input line 29.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2009/06/22 v3.00 Euler Roman
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \hbox (badness 1184) in paragraph at lines 42--43
+Overfull \hbox (88.18631pt too wide) in paragraph at lines 29--29
+[][]  
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 43--44
 \OT1/cmr/m/n/9 Galaxies are of-ten found clus-tered to-gether in groups
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
  [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [2]
 
- [2]
-
-LaTeX Warning: Command \r invalid in math mode on input line 100.
+LaTeX Warning: Command \r invalid in math mode on input line 101.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 100.
+LaTeX Warning: Command \r invalid in math mode on input line 101.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 102.
+LaTeX Warning: Command \r invalid in math mode on input line 103.
 
-
-<sfr_mass_quenched_centrals_satellites_gz2_group.pdf, id=457, 758.835pt x 361.3
+[3]
+<sfr_mass_quenched_centrals_satellites_gz2_group.pdf, id=504, 758.835pt x 361.3
 5pt>
 File: sfr_mass_quenched_centrals_satellites_gz2_group.pdf Graphic file (type pd
 f)
  <use sfr_mass_quenched_centrals_satellites_gz2_group.pdf>
 Package pdftex.def Info: sfr_mass_quenched_centrals_satellites_gz2_group.pdf us
-ed on input line 117.
+ed on input line 118.
 (pdftex.def)             Requested size: 504.0pt x 240.0025pt.
- [3]
-Underfull \hbox (badness 1852) in paragraph at lines 161--162
+
+
+Package natbib Warning: Citation `muldrew12' on page 4 undefined on input line 
+145.
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 162--163
 []\OT1/cmr/m/n/9 This sam-ple of field galaxy can-di-dates was then
  []
 
-[4 <./sfr_mass_quenched_centrals_satellites_gz2_group.pdf>]
-<redshift_cent_field.pdf, id=583, 289.08pt x 289.08pt>
+<redshift_cent_field.pdf, id=543, 289.08pt x 289.08pt>
 File: redshift_cent_field.pdf Graphic file (type pdf)
 
 <use redshift_cent_field.pdf>
-Package pdftex.def Info: redshift_cent_field.pdf used on input line 169.
+Package pdftex.def Info: redshift_cent_field.pdf used on input line 170.
 (pdftex.def)             Requested size: 226.79846pt x 226.79596pt.
 
-<redshift_sat_field.pdf, id=584, 289.08pt x 289.08pt>
+<redshift_sat_field.pdf, id=544, 289.08pt x 289.08pt>
 File: redshift_sat_field.pdf Graphic file (type pdf)
 
 <use redshift_sat_field.pdf>
-Package pdftex.def Info: redshift_sat_field.pdf used on input line 170.
+Package pdftex.def Info: redshift_sat_field.pdf used on input line 171.
 (pdftex.def)             Requested size: 226.79846pt x 226.79596pt.
- [5 <./redshift_cent_field.pdf> <./redshift_sat_field.pdf
-
-pdfTeX warning: /usr/texbin/pdflatex (file ./redshift_sat_field.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->]
-<mass_trend_with_log_radius_compare_field.pdf, id=665, 273.1806pt x 273.1806pt>
+ [4] [5 <./sfr_mass_quenched_centrals_satellites_gz2_group.pdf>]
+<mass_trend_with_log_radius_compare_field.pdf, id=659, 273.1806pt x 273.1806pt>
 File: mass_trend_with_log_radius_compare_field.pdf Graphic file (type pdf)
 <use mass_trend_with_log_radius_compare_field.pdf>
 Package pdftex.def Info: mass_trend_with_log_radius_compare_field.pdf used on i
-nput line 217.
+nput line 218.
 (pdftex.def)             Requested size: 226.79846pt x 226.80235pt.
 
-<p_disc_trend_with_log_radius_field_compare.pdf, id=666, 289.08pt x 289.08pt>
+<p_disc_trend_with_log_radius_field_compare.pdf, id=660, 289.08pt x 289.08pt>
 File: p_disc_trend_with_log_radius_field_compare.pdf Graphic file (type pdf)
 
 <use p_disc_trend_with_log_radius_field_compare.pdf>
 Package pdftex.def Info: p_disc_trend_with_log_radius_field_compare.pdf used on
- input line 227.
+ input line 228.
 (pdftex.def)             Requested size: 216.71631pt x 216.71683pt.
 
-<p_smooth_trend_with_log_radius_field_compare.pdf, id=667, 289.08pt x 289.08pt>
+<p_smooth_trend_with_log_radius_field_compare.pdf, id=661, 289.08pt x 289.08pt>
 File: p_smooth_trend_with_log_radius_field_compare.pdf Graphic file (type pdf)
 <use p_smooth_trend_with_log_radius_field_compare.pdf>
 Package pdftex.def Info: p_smooth_trend_with_log_radius_field_compare.pdf used 
-on input line 228.
+on input line 229.
 (pdftex.def)             Requested size: 216.71631pt x 216.71683pt.
 
 <bar_fraction_over_disc_trend_with_log_radius_sat_matched_field_cand.pdf, id=66
-8, 289.08pt x 289.08pt>
+2, 289.08pt x 289.08pt>
 File: bar_fraction_over_disc_trend_with_log_radius_sat_matched_field_cand.pdf G
 raphic file (type pdf)
 
 <use bar_fraction_over_disc_trend_with_log_radius_sat_matched_field_cand.pdf>
 Package pdftex.def Info: bar_fraction_over_disc_trend_with_log_radius_sat_match
-ed_field_cand.pdf used on input line 235.
+ed_field_cand.pdf used on input line 236.
 (pdftex.def)             Requested size: 201.59692pt x 201.59592pt.
 
-<merger_fraction_trend_with_log_radius_compare_sat_field_cand.pdf, id=669, 289.
+<merger_fraction_trend_with_log_radius_compare_sat_field_cand.pdf, id=663, 289.
 08pt x 289.08pt>
 File: merger_fraction_trend_with_log_radius_compare_sat_field_cand.pdf Graphic 
 file (type pdf)
 
 <use merger_fraction_trend_with_log_radius_compare_sat_field_cand.pdf>
 Package pdftex.def Info: merger_fraction_trend_with_log_radius_compare_sat_fiel
-d_cand.pdf used on input line 242.
+d_cand.pdf used on input line 243.
 (pdftex.def)             Requested size: 216.71631pt x 216.71683pt.
- [6 <./mass_trend_with_log_radius_compare_field.pdf>]
-<min_max_bulge_fraction_trend_with_log_radius_sat_field_cand.pdf, id=728, 578.1
+ [6 <./redshift_cent_field.pdf> <./redshift_sat_field.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./redshift_sat_field.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
+<min_max_bulge_fraction_trend_with_log_radius_sat_field_cand.pdf, id=717, 578.1
 6pt x 289.08pt>
 File: min_max_bulge_fraction_trend_with_log_radius_sat_field_cand.pdf Graphic f
 ile (type pdf)
 
 <use min_max_bulge_fraction_trend_with_log_radius_sat_field_cand.pdf>
 Package pdftex.def Info: min_max_bulge_fraction_trend_with_log_radius_sat_field
-_cand.pdf used on input line 267.
+_cand.pdf used on input line 268.
 (pdftex.def)             Requested size: 478.79846pt x 239.3982pt.
  [7 <./p_disc_trend_with_log_radius_field_compare.pdf> <./p_smooth_trend_with_l
 og_radius_field_compare.pdf
@@ -509,69 +515,72 @@ og_radius_field_compare.pdf
 pdfTeX warning: /usr/texbin/pdflatex (file ./p_smooth_trend_with_log_radius_fie
 ld_compare.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
+> <./mass_trend_with_log_radius_compare_field.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./mass_trend_with_log_radius_compare
+_field.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
 > <./bar_fraction_over_disc_trend_with_log_radius_sat_matched_field_cand.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./bar_fraction_over_disc_trend_with_
 log_radius_sat_matched_field_cand.pdf): PDF inclusion: multiple pdfs with page 
 group included in a single page
-> <./merger_fraction_trend_with_log_radius_compare_sat_field_cand.pdf
-
-pdfTeX warning: /usr/texbin/pdflatex (file ./merger_fraction_trend_with_log_rad
-ius_compare_sat_field_cand.pdf): PDF inclusion: multiple pdfs with page group i
-ncluded in a single page
->] <time_since_quenching_M*_Mh.pdf, id=812, 289.08pt x 578.16pt>
+>] <time_since_quenching_M*_Mh.pdf, id=802, 289.08pt x 578.16pt>
 File: time_since_quenching_M*_Mh.pdf Graphic file (type pdf)
 
 <use time_since_quenching_M*_Mh.pdf>
-Package pdftex.def Info: time_since_quenching_M*_Mh.pdf used on input line 281.
+Package pdftex.def Info: time_since_quenching_M*_Mh.pdf used on input line 282.
 
 (pdftex.def)             Requested size: 216.71631pt x 433.43367pt.
 
-<rate_of_quenching_M*_Mh.pdf, id=813, 289.08pt x 578.16pt>
+<rate_of_quenching_M*_Mh.pdf, id=803, 289.08pt x 578.16pt>
 File: rate_of_quenching_M*_Mh.pdf Graphic file (type pdf)
 
 <use rate_of_quenching_M*_Mh.pdf>
-Package pdftex.def Info: rate_of_quenching_M*_Mh.pdf used on input line 282.
+Package pdftex.def Info: rate_of_quenching_M*_Mh.pdf used on input line 283.
 (pdftex.def)             Requested size: 216.71631pt x 433.43367pt.
 
-<time_since_quenching_mu_Ngroup.pdf, id=814, 289.08pt x 578.16pt>
+<time_since_quenching_mu_Ngroup.pdf, id=804, 289.08pt x 578.16pt>
 File: time_since_quenching_mu_Ngroup.pdf Graphic file (type pdf)
 
 <use time_since_quenching_mu_Ngroup.pdf>
 Package pdftex.def Info: time_since_quenching_mu_Ngroup.pdf used on input line 
-289.
+290.
 (pdftex.def)             Requested size: 216.71631pt x 433.43367pt.
 
-<rate_of_quenching_mu_Ngroup.pdf, id=815, 289.08pt x 578.16pt>
+<rate_of_quenching_mu_Ngroup.pdf, id=805, 289.08pt x 578.16pt>
 File: rate_of_quenching_mu_Ngroup.pdf Graphic file (type pdf)
 
 <use rate_of_quenching_mu_Ngroup.pdf>
-Package pdftex.def Info: rate_of_quenching_mu_Ngroup.pdf used on input line 290
+Package pdftex.def Info: rate_of_quenching_mu_Ngroup.pdf used on input line 291
 .
 (pdftex.def)             Requested size: 216.71631pt x 433.43367pt.
 
-<time_since_quenching_delv_sigma.pdf, id=816, 289.08pt x 578.16pt>
+<time_since_quenching_delv_sigma.pdf, id=806, 289.08pt x 578.16pt>
 File: time_since_quenching_delv_sigma.pdf Graphic file (type pdf)
 
 <use time_since_quenching_delv_sigma.pdf>
 Package pdftex.def Info: time_since_quenching_delv_sigma.pdf used on input line
- 297.
+ 298.
 (pdftex.def)             Requested size: 216.71631pt x 433.43367pt.
 
-<rate_of_quenching_delv_sigma.pdf, id=817, 289.08pt x 578.16pt>
+<rate_of_quenching_delv_sigma.pdf, id=807, 289.08pt x 578.16pt>
 File: rate_of_quenching_delv_sigma.pdf Graphic file (type pdf)
 
 <use rate_of_quenching_delv_sigma.pdf>
 Package pdftex.def Info: rate_of_quenching_delv_sigma.pdf used on input line 29
-8.
+9.
 (pdftex.def)             Requested size: 216.71631pt x 433.43367pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 6412) has occurred while \output is active []
 
- [8 <./min_max_bulge_fraction_trend_with_log_radius_sat_field_cand.pdf>]
+ [8 <./min_max_bulge_fraction_trend_with_log_radius_sat_field_cand.pdf> <./merg
+er_fraction_trend_with_log_radius_compare_sat_field_cand.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./merger_fraction_trend_with_log_rad
+ius_compare_sat_field_cand.pdf): PDF inclusion: multiple pdfs with page group i
+ncluded in a single page
+>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -592,17 +601,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: /usr/texbin/pdflatex (file ./rate_of_quenching_mu_Ngroup.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2261) has occurred while \output is active []
 
  [11 <./time_since_quenching_delv_sigma.pdf> <./rate_of_quenching_delv_sigma.pd
 f
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./rate_of_quenching_delv_sigma.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
->] [12] [13] [14] (./environment.bbl [15]
+>] [12] [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+(./environment.bbl [15]
 Underfull \hbox (badness 1675) in paragraph at lines 289--290
 []\OT1/cmr/m/n/9 Hatfield P. W., Jarvis M. J., 2016, ArXiv e-prints,
  []
@@ -628,31 +638,28 @@ Missing character: There is no ‚ in font cmr9!
 Missing character: There is no ¬ in font cmr9!
 Missing character: There is no Å in font cmr9!
 Missing character: There is no “ in font cmr9!
+[16])
 
-Underfull \vbox (badness 2961) has occurred while \output is active []
+Package natbib Warning: There were undefined citations.
 
- [16])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 433.
-
-[17
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 433.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
  (./environment.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 433.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
 Package rerunfilecheck Info: File `environment.out' has not changed.
 (rerunfilecheck)             Checksum: 422304793AC55D05C15A5FE90E7DF365;1590.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 433.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 434.
  ) 
 Here is how much of TeX's memory you used:
- 7550 strings out of 493488
- 108874 string characters out of 3141326
- 241097 words of memory out of 3000000
- 10505 multiletter control sequences out of 15000+200000
+ 7551 strings out of 493488
+ 108885 string characters out of 3141326
+ 239392 words of memory out of 3000000
+ 10506 multiletter control sequences out of 15000+200000
  20479 words of font info for 75 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 31i,15n,34p,1890b,691s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,15n,34p,1890b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -685,10 +692,10 @@ pe1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/urw/ncntrsbk/uncr8a.pfb>
-Output written on environment.pdf (17 pages, 798332 bytes).
+Output written on environment.pdf (17 pages, 800069 bytes).
 PDF statistics:
- 1477 PDF objects out of 1728 (max. 8388607)
- 1380 compressed objects within 14 object streams
+ 1481 PDF objects out of 1728 (max. 8388607)
+ 1384 compressed objects within 14 object streams
  240 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
