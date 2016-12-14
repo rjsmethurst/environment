@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: environment.aux
 The style file: mn2e.bst
 Database file #1: refs.bib
-You've used 194 entries,
+You've used 200 entries,
             2983 wiz_defined-function locations,
-            1753 strings with 59794 characters,
-and the built_in function-call counts, 143420 in all, are:
-= -- 9790
-> -- 18034
+            1785 strings with 61165 characters,
+and the built_in function-call counts, 147171 in all, are:
+= -- 10065
+> -- 18449
 < -- 10
-+ -- 5650
-- -- 5503
-* -- 12139
-:= -- 27139
++ -- 5783
+- -- 5631
+* -- 12470
+:= -- 27849
 add.period$ -- 0
-call.type$ -- 194
-change.case$ -- 2580
-chr.to.int$ -- 190
-cite$ -- 194
-duplicate$ -- 3334
-empty$ -- 5118
-format.name$ -- 5850
-if$ -- 27858
+call.type$ -- 200
+change.case$ -- 2646
+chr.to.int$ -- 196
+cite$ -- 200
+duplicate$ -- 3436
+empty$ -- 5272
+format.name$ -- 5990
+if$ -- 28584
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 188
-newline$ -- 586
-num.names$ -- 786
-pop$ -- 2409
+missing$ -- 194
+newline$ -- 604
+num.names$ -- 810
+pop$ -- 2469
 preamble$ -- 1
-purify$ -- 2580
+purify$ -- 2646
 quote$ -- 0
-skip$ -- 4403
+skip$ -- 4517
 stack$ -- 0
-substring$ -- 4108
-swap$ -- 250
+substring$ -- 4228
+swap$ -- 256
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1746
+type$ -- 1800
 warning$ -- 0
-while$ -- 824
+while$ -- 849
 width$ -- 0
-write$ -- 1940
+write$ -- 2000

@@ -1,4 +1,4 @@
-\begin{thebibliography}{194}
+\begin{thebibliography}{200}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abadi} {et~al}\mbox{.}(1999){Abadi}, {Moore}, \& {Bower}}]{abadi99}
@@ -32,6 +32,11 @@
 
 \bibitem[{{Athanassoula}(1992{\natexlab{b}})}]{athanassoula92b}
 {Athanassoula} E., 1992{\natexlab{b}}, \mnras, 259, 345
+
+\bibitem[{{Athanassoula} {et~al}\mbox{.}(2016){Athanassoula}, {Rodionov},
+  {Peschken}, \& {Lambert}}]{athanassoula16}
+{Athanassoula} E., {Rodionov} S.~A., {Peschken} N., {Lambert} J.~C., 2016,
+  \apj, 821, 90
 
 \bibitem[{{Baldry} {et~al}\mbox{.}(2006){Baldry}, {Balogh}, {Bower},
   {Glazebrook}, {Nichol}, {Bamford}, \& {Budavari}}]{Baldry06}
@@ -78,6 +83,11 @@
   {Silva}, {Bressan}, {Benson}, \& {Cole}}]{baugh05}
 {Baugh} C.~M., {Lacey} C.~G., {Frenk} C.~S., {Granato} G.~L., {Silva} L.,
   {Bressan} A., {Benson} A.~J., {Cole} S., 2005, \mnras, 356, 1191
+
+\bibitem[{{Bell} {et~al}\mbox{.}(2006){Bell}, {Phleps}, {Somerville}, {Wolf},
+  {Borch}, \& {Meisenheimer}}]{bell06}
+{Bell} E.~F., {Phleps} S., {Somerville} R.~S., {Wolf} C., {Borch} A.,
+  {Meisenheimer} K., 2006, \apj, 652, 270
 
 \bibitem[{{Berlind} {et~al}\mbox{.}(2006){Berlind}, {Frieman}, {Weinberg},
   {Blanton}, {Warren}, {Abazajian}, {Scranton}, {Hogg}, {Scoccimarro},
@@ -224,6 +234,10 @@
   {Pe{\~n}arrubia}}]{delpopolo05}
 {Del Popolo} A., {Hiotelis} N., {Pe{\~n}arrubia} J., 2005, \apj, 628, 76
 
+\bibitem[{{Di Matteo} {et~al}\mbox{.}(2005){Di Matteo}, {Springel}, \&
+  {Hernquist}}]{dimatteo05}
+{Di Matteo} T., {Springel} V., {Hernquist} L., 2005, \nat, 433, 604
+
 \bibitem[{{Diaferio} {et~al}\mbox{.}(2001){Diaferio}, {Kauffmann}, {Balogh},
   {White}, {Schade}, \& {Ellingson}}]{diaferio01}
 {Diaferio} A., {Kauffmann} G., {Balogh} M.~L., {White} S.~D.~M., {Schade} D.,
@@ -345,6 +359,9 @@
   {Hernquist}}]{hopkins09c}
 {Hopkins} P.~F., {Cox} T.~J., {Younger} J.~D., {Hernquist} L., 2009, \apj, 691,
   1168
+
+\bibitem[{{Hopkins} \& {Hernquist}(2009)}]{hopkins09a}
+{Hopkins} P.~F., {Hernquist} L., 2009, \apj, 694, 599
 
 \bibitem[{{Hopkins} {et~al}\mbox{.}(2006{\natexlab{a}}){Hopkins}, {Hernquist},
   {Cox}, {Di Matteo}, {Robertson}, \& {Springel}}]{hopkins06d}
@@ -479,6 +496,12 @@
   {Yan}, {Willmer}, {Coil}, {Chiueh}, {Croton}, {Gerke}, {Lotz},
   {Guhathakurta}, \& {Newman}}]{lin10}
 {Lin} L. {et~al.}, 2010, \apj, 718, 1158
+
+\bibitem[{{Lintott} {et~al}\mbox{.}(2009){Lintott}, {Schawinski}, {Keel}, {van
+  Arkel}, {Bennert}, {Edmondson}, {Thomas}, {Smith}, {Herbert}, {Jarvis},
+  {Virani}, {Andreescu}, {Bamford}, {Land}, {Murray}, {Nichol}, {Raddick},
+  {Slosar}, {Szalay}, \& {Vandenberg}}]{lintott09}
+{Lintott} C.~J. {et~al.}, 2009, \mnras, 399, 129
 
 \bibitem[{{Liu} {et~al}\mbox{.}(2009){Liu}, {Mao}, {Deng}, {Xia}, \&
   {Wen}}]{liu09}
@@ -698,6 +721,11 @@
   {Popescu}, {Prescott}, {Sharp}, {Sutherland}, {Taylor}, {Thomas}, {Tuffs},
   {van Kampen}, \& {Wijesinghe}}]{robotham11}
 {Robotham} A.~S.~G. {et~al.}, 2011, \mnras, 416, 2640
+
+\bibitem[{{Sanders} {et~al}\mbox{.}(1988){Sanders}, {Soifer}, {Elias},
+  {Madore}, {Matthews}, {Neugebauer}, \& {Scoville}}]{sanders88}
+{Sanders} D.~B., {Soifer} B.~T., {Elias} J.~H., {Madore} B.~F., {Matthews} K.,
+  {Neugebauer} G., {Scoville} N.~Z., 1988, \apj, 325, 74
 
 \bibitem[{{Schawinski} {et~al}\mbox{.}(2014){Schawinski}, {Urry}, {Simmons},
   {Fortson}, {Kaviraj}, {Keel}, {Lintott}, {Masters}, {Nichol}, {Sarzi},
