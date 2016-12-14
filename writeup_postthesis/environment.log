@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.23)  14 DEC 2016 16:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.23)  14 DEC 2016 16:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,7 @@ pe1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/urw/ncntrsbk/uncr8a.pfb>
-Output written on environment.pdf (18 pages, 815338 bytes).
+Output written on environment.pdf (18 pages, 815324 bytes).
 PDF statistics:
  1603 PDF objects out of 1728 (max. 8388607)
  1503 compressed objects within 16 object streams
