@@ -1,4 +1,4 @@
-\begin{thebibliography}{200}
+\begin{thebibliography}{201}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abadi} {et~al}\mbox{.}(1999){Abadi}, {Moore}, \& {Bower}}]{abadi99}
@@ -602,6 +602,11 @@
 \bibitem[{{Navarro} {et~al}\mbox{.}(1995){Navarro}, {Frenk}, \&
   {White}}]{navarro95}
 {Navarro} J.~F., {Frenk} C.~S., {White} S.~D.~M., 1995, \mnras, 275, 56
+
+\bibitem[{{Noble} {et~al}\mbox{.}(2016){Noble}, {Webb}, {Yee}, {Muzzin},
+  {Wilson}, {van der Burg}, {Balogh}, \& {Shupe}}]{noble16}
+{Noble} A.~G., {Webb} T.~M.~A., {Yee} H.~K.~C., {Muzzin} A., {Wilson} G., {van
+  der Burg} R.~F.~J., {Balogh} M.~L., {Shupe} D.~L., 2016, \apj, 816, 48
 
 \bibitem[{{Noeske} {et~al}\mbox{.}(2007){Noeske}, {Weiner}, {Faber},
   {Papovich}, {Koo}, {Somerville}, {Bundy}, {Conselice}, {Newman},
