@@ -20,7 +20,7 @@
 
 
 \title[Quenching in the group environment]{Galaxy Zoo: The interplay of quenching mechanisms in the group environment}
-\author[Smethurst et al. 2017]{R. ~J. ~Smethurst,$^{1,2}$ C. ~J. ~Lintott,$^{1}$ S.~P.~Bamford,$^{2}$ R. ~Hart,$^{2}$ \newauthor S. ~Kruk,$^{1}$ K.~L.~Masters,$^{3}$  R. C. ~Nichol,$^{3}$ and the Galaxy Zoo team \footnotemark[1]
+\author[Smethurst et al. 2017]{R. ~J. ~Smethurst,$^{1,2}$ C. ~J. ~Lintott,$^{1}$ S.~P.~Bamford,$^{2}$ R. ~Hart,$^{2}$ \newauthor S.~J. ~Kruk,$^{1}$ K.~L.~Masters,$^{3}$  R. C. ~Nichol,$^{3}$ and the Galaxy Zoo team \footnotemark[1]
 \\ $^1$ Oxford Astrophysics, Department of Physics, University of Oxford, Denys Wilkinson Building, Keble Road, Oxford, OX1 3RH, UK 
 \\ $^2$ School of Physics and Astronomy, The University of Nottingham, University Park, Nottingham, NG7 2RD, UK
 \\ $^3$ Institute of Cosmology and Gravitation, University of Portsmouth, Dennis Sciama Building, Barnaby Road, Portsmouth, PO1 3FX, UK 
@@ -114,9 +114,9 @@ This paper proceeds as follows. In Section~\ref{sec:data} we describe our data s
 \end{figure*}
 
 
-In this investigation we use visual classifications of galaxy morphologies from the Galaxy Zoo 2\footnote{\url{http://zoo2.galaxyzoo.org/}} (GZ2) citizen science project \citep{lintott09, GZ2}, which obtains multiple independent classifications for each optical image. The full question tree for an image is shown in Figure~1 of \citeauthor{GZ2}  The GZ2 project used $304022$ images from the Sloan Digital Sky Survey Data Release 7 (SDSS; \citealt{york00, abazajian09}) all classified by at least 17 independent volunteers, with a mean number of classifications of $\sim42$. We also utilise the Petrosian magnitude, {\tt petroMag}, values for the $u$ ($3543 \rm{\AA}$) and $r$ ($6231 \rm{\AA}$) wavebands provided by the SDSS pipeline for the GZ2 galaxies.
+In this investigation we use visual classifications of galaxy morphologies from the Galaxy Zoo 2\footnote{\url{http://zoo2.galaxyzoo.org/}} (GZ2) citizen science project \citep{lintott09, GZ2}, which obtains multiple independent classifications for each optical image. The full question tree for an image is shown in Figure~1 of \citeauthor{GZ2}  The GZ2 project used $304022$ images from the Sloan Digital Sky Survey Data Release 7 (SDSS; \citealt{york00, abazajian09}) all classified by at least 17 independent volunteers, with a mean number of classifications of $\sim42$. We also utilise the Petrosian magnitude, {\tt petroMag}, values for the $u$ ($3543 \rm{\AA}$) and $r$ ($6231 \rm{\AA}$) wavebands provided by the SDSS DR7 pipeline for the GZ2 galaxies.
 
-We also required NUV ($2267 \rm{\AA}$) photometry from the GALEX survey \citep{martin05}, within which $\sim42\%$ of the GZ2 sample was observed, giving a total of $126316$ galaxies ($0.01 < z < 0.25$). This will be referred to as the \textsc{gz2-galex} sample. The completeness of this sample is shown in Figure~2 of \cite{smethurst15}. 
+We also required NUV ($2267 \rm{\AA}$) photometry from the GALEX survey \citep{martin05}, within which $\sim42\%$ of the GZ2 sample was observed, giving a total of $126316$ galaxies ($0.01 \lesssim z \lesssim 0.25$). This will be referred to as the \textsc{gz2-galex} sample. The completeness of this sample is shown in Figure~2 of \cite{smethurst15}. 
 
 Magnitudes are corrected for galactic extinction \citep{Oh11} by applying the \citet{Cardelli89} law, giving a typical correction of $u-r \sim 0.05$. K-corrections are also adopted to $z=0.0$ and absolute magnitudes obtained from the NYU-VAGC \citep{Blanton05, padmanabhan08, blanton07}, giving a typical $u-r$ correction of $\sim 0.15$ mag. %The change in the $u-r$ colour due to both corrections therefore ranges from $\Delta (u-r) \sim 0.2$ at low redshift, increasing up to $\Delta (u-r) \sim 1.0$ at $z \sim 0.25$, which is consistent with the expected k-corrections shown in Figure 15 of \citet{blanton07}. These corrections were calculated by \citet{Bamford09} for a subset of galaxies in the SDSS survey.
 
@@ -136,7 +136,7 @@ The projected group-centric radius, $R$, of all satellite galaxies from their ce
 200\rho_{\rm{crit}}(z) = \frac{M_{cl}}{\frac{4}{3}\pi R_{200}^3},
 \end{equation}
 
-where $M_{cl}$ is the mass of the group. \citeauthor{finn05} then use the redshift dependence of the critical density and the virial mass to relate the line-of-sight velocity dispersion of the group, $\sigma_x$, to the group mass so that $R_{200}$ becomes:
+where $M_{cl}$ is the total mass of the group. \citeauthor{finn05} then use the redshift dependence of the critical density and the virial mass to relate the line-of-sight velocity dispersion of the group, $\sigma_x$, to the group mass so that $R_{200}$ becomes:
 \begin{equation}\label{eq:r200}
 R_{200} = 1.73 \left ( \frac{\sigma_x}{1000 \rm{km}~\rm{s}^{-1}} \right) \cdot \frac{1}{\sqrt{\Omega_{\Lambda} +\Omega_o(1+z)^3}} ~ h_{100}^{-1} ~\rm{Mpc}. 
 \end{equation}
@@ -158,9 +158,9 @@ In this study we specifically focus on galaxies that are below the star forming 
 \label{fig:phasespace}
 \end{figure}
 
-We also show the \textsc{gz2-group} satellite galaxies on a phase space diagram, shown in Figure~\ref{fig:phasespace}, with the normalised projected group-centric radius and normalised relative velocity of the satellites to their central galaxy. We also over plot caustics at constant $(\Delta v/\sigma)\times(R/R_{200}) = \{3, 1.35, 0.64, 0.2\}$ as in \cite{noble16}. They define those galaxies with $3<(\Delta v/\sigma)\times(R/R_{200})<1.35$ as infalling satellites, $1.35<(\Delta v/\sigma)\times(R/R_{200})<0.64$ as recently accreted satellites, $0.64<(\Delta v/\sigma)\times(R/R_{200})<0.2$ as intermediate/backsplashing satellites and $0.2<(\Delta v/\sigma)\times(R/R_{200})<0$ as central satellites. 
+We also show the \textsc{gz2-group} satellite galaxies on a phase space diagram, shown in Figure~\ref{fig:phasespace}, with the normalised projected group-centric radius and normalised relative velocity of the satellites to their central galaxy. We also over plot caustics at constant $(\Delta v/\sigma)\times(R/R_{200}) = \{3, 1.35, 0.64, 0.2\}$ as in \cite{noble16}. They define those galaxies with $3<(\Delta v/\sigma)\times(R/R_{200})<1.35$ as infalling satellites, $1.35<(\Delta v/\sigma)\times(R/R_{200})<0.64$ as recently accreted satellites, $0.64<(\Delta v/\sigma)\times(R/R_{200})<0.2$ as intermediate/backsplashing satellites and $0.2<(\Delta v/\sigma)\times(R/R_{200})<0$ as inner satellites. 
 
-We find that $23\%$ of the \textsc{gz2-group} satellites lie outside of the outer caustic with $(\Delta v/\sigma)\times(R/R_{200})~>~3$. Either the true radius has been overestimated by the projected radius or the satellite has been misidentified as a member of a group. We chose to retain these galaxies within our sample since we cannot distinguish between these two effects (however we note that removing them does not change our conclusions). This is only an issue for satellites with $R/R_{200} > 1$.
+We find that $23\%$ of the \textsc{gz2-group} satellites lie outside of the outer caustic with $(\Delta v/\sigma)\times(R/R_{200})~>~3$. Either the true velocity has been overestimated due to projection effects or the satellite has been misidentified as a member of a group. We chose to retain these galaxies within our sample since we cannot distinguish between these two effects (however we note that removing them does not change our conclusions). This is only an issue for satellites with $R/R_{200} > 1$.
 
 We also consider the projected neighbour density, as defined by \cite{Baldry06} as $\Sigma_N = N/4\pi d_N^2$, where $d_N$ is the distance to the $N^{\rm{th}}$ nearest neighbour, for the \textsc{gz2-berlind} and \textsc{gz2-group} samples. $\Sigma$ is a more direct probe of the local density of a galaxy's environment, and although it does not allow for the identification of groups and their properties, it is still a useful probe of the local density inside a group  \cite[see][for a comparison of various environment parametrisations]{muldrew12}.
 
@@ -195,7 +195,7 @@ We constructed a sample of field galaxies for use as a control sample to the \te
 
 Firstly, each of the central galaxies of the \textsc{gz2-group} sample were matched to at least one candidate field galaxy in both redshift ($\pm10\%$) and stellar mass ($\pm10\%$), to give $2,309$ field galaxies with $z < 0.084$. As with the \textsc{gz2-group} sample in Section~\ref{sec:groups} we focus on galaxies which are either quenching or quenched and are more than $1\sigma$ below the SFS and so the same constraints must be placed on this field control sample. This encompasses $1,596$ field galaxies with $z < 0.084$ which will be referred to as the \textsc{gz2-cent-field-q} sample. It will be used as a control sample when investigating the inferred quenching parameters of the central galaxies of the \textsc{gz2-group} sample. The redshift distribution of the \textsc{gz2-cent-field-q} sample is shown in comparison to the distribution of central galaxies in the \textsc{gz2-group} sample in the left panel of Figure~\ref{fig:zcompare}. 
 
-Secondly, each of the satellite galaxies of the \textsc{gz2-berlind} sample were matched to at least one candidate field galaxy in both redshift ($\pm10\%$) and stellar mass ($\pm10\%$), to give $5,004$ field galaxies with $z < 0.084$ which will be referred to as the \textsc{gz2-sat-field} sample.  Note that this sample is not restricted to being $1\sigma$ below the SFS as it will be used as a control when investigating the morphological trends of satellite galaxies in the \textsc{gz2-berlind} sample (i.e. those not restricted to being below the SFS) with environment. 
+Secondly, each of the satellite galaxies of the \textsc{gz2-berlind} sample were matched to at least one candidate field galaxy in both redshift ($\pm10\%$) and stellar mass ($\pm10\%$), to give $8,444$ field galaxies with $z < 0.084$ which will be referred to as the \textsc{gz2-sat-field} sample.  Note that this sample is not restricted to being $1\sigma$ below the SFS as it will be used as a control when investigating the morphological trends of satellite galaxies in the \textsc{gz2-berlind} sample (i.e. those not restricted to being below the SFS) with environment. 
 
 $237$ galaxies are present in both the \textsc{gz2-cent-field-q} and \textsc{gz2-sat-field} samples. The redshift distribution of the \textsc{gz2-sat-field} sample is shown in comparison to the distribution of satellite galaxies in the \textsc{gz2-berlind} sample in the right panel of Figure~\ref{fig:zcompare}.
 
@@ -284,7 +284,7 @@ This simplifies the output from \textsc{starpy} for each galaxy from a probabili
 \centering{
 \includegraphics[width=0.43\textwidth]{time_since_quenching_mu_Ngroup.pdf}
 \includegraphics[width=0.43\textwidth]{rate_of_quenching_mu_Ngroup.pdf}
-\caption[Trend of $\Delta t$ and $\tau$ with group radius split by number in group and stellar mass ratio]{The median time since quenching onset ($\Delta t = t_{obs} - t_{q}$) and rate of quenching ($\tau$; right) binned in group radius, $R/R_{200}$, for satellite galaxies (crosses) split into bins of stellar mass ratio ($\mu_* = M_*/M_{cent,*}$, top) and number of group members ($N_{group}$, bottom). The corresponding values for central galaxies (squares, plotted at $\sim0.01 R/R_{200}$) and galaxies in the \textsc{gz2-cent-field-q} sample (circles, plotted at $25 R/R_{200}$) are shown, where possible, and connected by the dashed lines to help guide the eye. The shaded regions show the $\pm1\sigma$ scatter on the median $\Delta t$ and $\tau$ in each bin of $R/R_{200}$. Note that the median uncertainties for an individual galaxy are $\Delta t\pm_{2.6}^{2.0}$ and $\tau\pm_{0.6}^{0.5}$. The bin edges used are $R/R_{200} =  [0.01 ,   0.2,   0.4,   0.6,   0.8,   1.0 ,   2.0 ,   4.0 ,   6.0 ,  10.0]$ and each point is plotted at the lower edge of the bin, except for the inner point which is plotted at $0.1~R/R_{200}$.}
+\caption[Trend of $\Delta t$ and $\tau$ with group radius split by number in group and stellar mass ratio]{The median time since quenching onset ($\Delta t = t_{obs} - t_{q}$) and rate of quenching ($\tau$; right) binned in group radius, $R/R_{200}$, for satellite galaxies (crosses) split into bins of stellar mass ratio ($\mu_* = M_*/M_{cent,*}$, top) and number of group members ($N_{group}$, bottom). The corresponding values for central galaxies (squares, plotted at $\sim0.01 R/R_{200}$) are shown, where possible, and connected by the dashed lines to help guide the eye. The shaded regions show the $\pm1\sigma$ scatter on the median $\Delta t$ and $\tau$ in each bin of $R/R_{200}$. Note that the median uncertainties for an individual galaxy are $\Delta t\pm_{2.6}^{2.0}$ and $\tau\pm_{0.6}^{0.5}$. The bin edges used are $R/R_{200} =  [0.01 ,   0.2,   0.4,   0.6,   0.8,   1.0 ,   2.0 ,   4.0 ,   6.0 ,  10.0]$ and each point is plotted at the lower edge of the bin, except for the inner point which is plotted at $0.1~R/R_{200}$.}
 \label{fig:timesinceradiusmu}}
 \end{figure*}
 
@@ -328,12 +328,12 @@ The \textsc{gz2-group} satellite galaxies are also split into bins of their rela
 
 \hline
 \multicolumn{1}{r|}{} & Shown in Figure & Slope in $\Delta t$ with $R/R_{200}$        & Slope in $\tau$ with $R/R_{200}$            \\ \hline 
-$M_*$                 & 5.9a,b          & $-0.927\pm_{0.446}^{0.436}$ & $-0.063\pm_{0.056}^{0.057}$ \\
-$M_{\rm{cent},*}$     & 5.9c,d          & $-0.906\pm_{0.576}^{0.567}$ & $-0.081\pm_{0.080}^{0.081}$ \\
-$\mu_*$               & 5.10a,b         & $-1.140\pm_{0.330}^{0.317}$ & $-0.086\pm_{0.031}^{0.031}$ \\
-$N_{\rm{group}}$      & 5.10c,d         & $-1.071\pm_{0.475}^{0.475}$ & $-0.078\pm_{0.049}^{0.048}$ \\
-$|\Delta v|$          & 5.11a,b         & $-1.424\pm_{0.413}^{0.416}$ & $-0.110\pm_{0.069}^{0.066}$ \\
-$\sigma_*$            & 5.11c,d         & $-0.757\pm_{0.331}^{0.331}$ & $-0.005\pm_{0.036}^{0.035}$ \\ \hline
+$M_*$                 & \ref{fig:timesinceradius}a,b          & $-0.927\pm_{0.446}^{0.436}$ & $-0.063\pm_{0.056}^{0.057}$ \\
+$M_{\rm{cent},*}$     & \ref{fig:timesinceradius}c,d          & $-0.906\pm_{0.576}^{0.567}$ & $-0.081\pm_{0.080}^{0.081}$ \\
+$\mu_*$               & \ref{fig:timesinceradiusmu}a,b         & $-1.140\pm_{0.330}^{0.317}$ & $-0.086\pm_{0.031}^{0.031}$ \\
+$N_{\rm{group}}$      & \ref{fig:timesinceradiusmu}c,d         & $-1.071\pm_{0.475}^{0.475}$ & $-0.078\pm_{0.049}^{0.048}$ \\
+$|\Delta v|$          & \ref{fig:timesinceradiusvel}a,b         & $-1.424\pm_{0.413}^{0.416}$ & $-0.110\pm_{0.069}^{0.066}$ \\
+$\sigma_*$            & \ref{fig:timesinceradiusvel}c,d         & $-0.757\pm_{0.331}^{0.331}$ & $-0.005\pm_{0.036}^{0.035}$ \\ \hline
 \end{tabularx}
 \end{table*}
 
@@ -346,7 +346,7 @@ We shall now consider the results presented in Sections~\ref{sec:morphfrac} \& \
 
 \subsection{The role of mergers as quenching mechanisms in the group environment}\label{sec:rolemergerenv}
 
-The merger classification in GZ2 has been shown to preferentially identify major mergers \citep{Darg10a}; while bulge formation in disc galaxies is often associated with evolutionary histories driven by minor mergers \citep{Croton06, tonini16}.  Although we see evidence for an enhanced merger fraction in the inner regions of the group environment (Figure~\ref{fig:mergerradius}), the bulge fractions vary much more significantly from the field value than the merger fraction (Figure~\ref{fig:bulgeradius}). This suggests that minor mergers may be more dominant than major mergers for satellites in the group environment, particularly at $R/R_{200} > 0.5$. 
+The merger classification in GZ has been shown to preferentially identify major mergers \citep{Darg10a, casteels13}; while bulge formation in disc galaxies is often associated with evolutionary histories driven by minor mergers \citep{Croton06, tonini16}.  Although we see evidence for an enhanced merger fraction in the inner regions of the group environment (Figure~\ref{fig:mergerradius}), the bulge fractions vary much more significantly from the field value than the merger fraction (Figure~\ref{fig:bulgeradius}). This suggests that minor mergers may be more dominant than major mergers for satellites in the group environment, particularly at $R/R_{200} > 0.5$. 
 
 If mergers are a dominant evolutionary mechanism for satellite galaxies (as the morphological evidence in Figures~\ref{fig:mergerradius} \& \ref{fig:bulgeradius} suggests) we would expect to see a difference in the quenching histories of satellites residing in groups with a larger number of members. However, there is no trend with time since quenching onset (Figure \ref{fig:timesinceradiusmu}c) or rate of quenching (Figure \ref{fig:timesinceradiusmu}d) with increasing $N_{group}$ for the satellite galaxies. This suggests that mergers are not the dominant quenching mechanism for satellite galaxies, but that whatever mechanism is the cause of the quenching occurs at the same rate irrespective of group size. 
 
@@ -368,7 +368,7 @@ We must therefore consider whether the environment itself may play a role in tri
 
 \subsection{The role of the environment in quenching}\label{sec:roleenv}
 
-A trend for increasing time since quenching onset, $\Delta t$, with decreasing projected group-centric radius is present across the satellite population of the \textsc{gz2-group} sample (Figures~\ref{fig:timesinceradius}-\ref{fig:timesinceradiusvel} and quantified in Table~\ref{table:resultsum}). We interpret this as environmentally driven mechanisms causing quenching at the same rate throughout the infall time of a galaxy in a group. Galaxies which are now closer in fell into the group earlier and as they did so they started to quench, giving rise to a larger inferred $\Delta t$.
+A trend for increasing time since quenching onset, $\Delta t$, with decreasing projected group-centric radius is present across the satellite population of the \textsc{gz2-group} sample (Figures~\ref{fig:timesinceradius}-\ref{fig:timesinceradiusvel} and quantified in Table~\ref{table:resultsum}). We interpret this as environmentally driven mechanisms causing quenching at the same rate throughout the infall time of a galaxy in a group. Galaxies which are now closer in fell into the group earlier, and as they did so they started to quench, giving rise to a larger inferred $\Delta t$.
 
 We explain this in the context of works which consider the effects of halo mass on group galaxies. More massive halos are seen to have a greater impact on the star formation histories of their satellites than less massive halos in Figure~\ref{fig:timesinceradius}c. The halo mass is correlated with both (i) the gravitational potential of the group and (ii) the temperature of the IGM, suggesting that an environmental quenching mechanism which is correlated with one or both of these properties is responsible for this result.
 
@@ -430,7 +430,7 @@ It is apparent from the results presented here that many quenching mechanisms ar
 \section*{Acknowledgements}
 The authors would like to thank R. Davies and K. Pimbblet for discussion and suggestions which greatly improved the clarity of this paper. 
 
-RS acknowledges funding from the Science and Technology Facilities Council Grant Code ST/K502236/1. 
+RJS acknowledges funding from the Science and Technology Facilities Council Grant Code ST/K502236/1. SJK would like to acknowledge the funding from STFC Grant Code ST/MJ0371X/1
 
 The development of Galaxy Zoo was supported in part by the Alfred P. Sloan Foundation. Galaxy Zoo was supported by The Leverhulme Trust. 
 
