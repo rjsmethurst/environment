@@ -4,9 +4,7 @@ This is the repository for the study of how the quenching parameters derived usi
 Use of any of the materials are requested to cite Smethurst et al. 2017.
 
 Submitted to MNRAS on 22 Feb 2017.
-
 Received referee report; re-submitted on 07 Apr 2017.
-
 Accepted by MNRAS on 20 Apr 2017. Preprint is available on arXiv: https://arxiv.org/abs/1704.06269 
 
 
